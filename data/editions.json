@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "Osservatorio Strategico Quotidiano",
+    "subtitle": "Lavoro, Formazione Continua, Relazioni Industriali, Bilateralità e PMI",
+    "recipient": "Andrea Cafà — Presidente CIFA Italia & FonARCom",
+    "schedule": "Ogni giorno alle 08:00 (Europe/Rome)",
+    "lastUpdated": "2026-11-12T08:00:00+01:00"
+  },
+  "pillars": [
+    {
+      "id": "formazione-politiche-attive",
+      "name": "Formazione Continua & Politiche Attive",
+      "shortName": "Formazione & FNC",
+      "description": "Fondi Paritetici Interprofessionali, Fondo Nuove Competenze (FNC), GOL, SIISL, Ministero del Lavoro, INPS, INAPP"
+    },
+    {
+      "id": "relazioni-industriali-cnel",
+      "name": "Relazioni Industriali, CCNL & CNEL",
+      "shortName": "CCNL & CNEL",
+      "description": "Qualità della rappresentanza datoriale e sindacale, contrasto al dumping contrattuale, Archivio Nazionale CNEL"
+    },
+    {
+      "id": "bilateralita-welfare-sicurezza",
+      "name": "Bilateralità, Welfare & Sicurezza",
+      "shortName": "Welfare & Sicurezza",
+      "description": "Enti bilaterali (Epar), sanità integrativa (SanArCom), D.Lgs. 81/08, bandi e circolari INAIL"
+    },
+    {
+      "id": "ia-competenze-pmi",
+      "name": "Intelligenza Artificiale & Transizione PMI",
+      "shortName": "IA & PMI",
+      "description": "Legge IA e lavoro, Osservatorio IA Ministero del Lavoro, reskilling/upskilling digitale per le PMI, incentivi MIMIT"
+    },
+    {
+      "id": "ecosistema-cifa-fonarcom",
+      "name": "Ecosistema CIFA Italia & FonARCom",
+      "shortName": "Ecosistema Diretto",
+      "description": "Posizionamenti istituzionali, avvisi, regolamenti e iniziative di CIFA Italia, FonARCom, Confsal, Epar, SanArCom"
+    }
+  ],
+  "editions": [
+    {
+      "date": "2026-11-12",
+      "displayDate": "Giovedì 12 Novembre 2026",
+      "editorialNote": "Focus odierno sulle istruzioni operative del Ministero del Lavoro per i tetti di spesa dei Fondi Interprofessionali (Circolare n. 12/2026 e D.D. n. 227/2026), gli scorrimenti del Fondo Nuove Competenze, la riforma anti-dumping dell'Archivio Nazionale Contratti del CNEL, i decreti attuativi sulla governance dell'IA nel lavoro (L. 132/2025 e D.Lgs. 179/2026) e gli esiti istituzionali del Ventennale FonARCom.",
+      "stats": {
+        "scannedSources": 48,
+        "discardedNoise": 42,
+        "selectedItems": 6,
+        "primaryDocuments": 9
+      },
+      "items": [
+        {
+          "id": "2026-11-12-01",
+          "pillarId": "formazione-politiche-attive",
+          "categoryTag": "Circolare Ministeriale / Governance Fondi",
+          "priority": "Alta Priorità",
+          "title": "Fondi Paritetici Interprofessionali: Circolare MLPS n. 12/2026 sui tetti alle spese di funzionamento e Linee Guida D.D. n. 227/2026",
+          "keyFact": "Il Ministero del Lavoro e delle Politiche Sociali, con la Circolare n. 12 del 27 ottobre 2026, ha fornito le istruzioni operative attuative del paragrafo 4.2 delle nuove Linee Guida sui Fondi Paritetici Interprofessionali (adottate con Decreto Direttoriale n. 227 dell'11 maggio 2026, sostitutivo del D.D. n. 8/2026). Il provvedimento definisce il calcolo per scaglioni dimensionali delle soglie massime per le spese di funzionamento sul gettito dello 0,30%, disciplina le finestre di mobilità delle aziende tra Fondi, fissa standard rigorosi di tracciamento per la FAD e stabilisce che dall'esercizio 2027 anche le attività propedeutiche ai piani formativi confluiranno nei costi di funzionamento.",
+          "strategicImpact": "Impatto diretto sulla governance, sull'adeguamento statutario e regolamentare e sulla programmazione del bilancio preventivo 2027 di FonARCom, nonché sulla gestione della portabilità e mobilità delle imprese aderenti.",
+          "sources": [
+            {
+              "name": "Dottrina per il Lavoro — Analisi Circolare MLPS n. 12/2026",
+              "publisher": "Dottrina per il Lavoro",
+              "url": "https://www.dottrinalavoro.it/"
+            },
+            {
+              "name": "Consulenti del Lavoro — Nuove Linee Guida Fondi Interprofessionali",
+              "publisher": "Fondazione Studi Consulenti del Lavoro",
+              "url": "https://www.consulentidellavoro.it/"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "Ministero del Lavoro — Circolare n. 12 del 27 ottobre 2026 (Spese di funzionamento Fondi Interprofessionali)",
+              "code": "Circolare MLPS n. 12/2026",
+              "type": "Circolare Ministeriale",
+              "url": "https://www.lavoro.gov.it/documenti-e-norme/normative"
+            },
+            {
+              "title": "Ministero del Lavoro — Decreto Direttoriale n. 227 dell'11 maggio 2026 (Linee Guida attivazione, funzionamento e vigilanza Fondi ex art. 118 L. 388/2000)",
+              "code": "D.D. MLPS n. 227/2026",
+              "type": "Decreto Direttoriale",
+              "url": "https://www.lavoro.gov.it/temi-e-priorita/orientamento-e-formazione/focus-on/formazione-continua"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-02",
+          "pillarId": "formazione-politiche-attive",
+          "categoryTag": "Politiche Attive / Competenze",
+          "priority": "Alta Priorità",
+          "title": "Fondo Nuove Competenze (FNC 3): decreti di scorrimento istanze 2026 e raccordo operativo con i Fondi Interprofessionali",
+          "keyFact": "Nell'ambito della terza edizione del Fondo Nuove Competenze (disciplinata dal Decreto Interministeriale 10 ottobre 2024 e dal D.D. n. 439 del 5 dicembre 2024), i decreti direttoriali adottati nel 2026 (a partire dal D.D. n. 9 del 9 gennaio 2026 e successivi provvedimenti di scorrimento) hanno rifinanziato e ammesso a valutazione ulteriori istanze aziendali presentate entro i termini per percorsi di transizione digitale ed ecologica, confermando la centralità del canale dei Fondi Interprofessionali per l'erogazione della formazione.",
+          "strategicImpact": "Avvalora la linea strategica sostenuta dal Presidente Cafà sul ruolo dei Fondi Interprofessionali quali attuatori diretti di politiche attive del lavoro in sinergia con Ministero del Lavoro e Regioni, in vista della strutturazione della quarta edizione del FNC.",
+          "sources": [
+            {
+              "name": "Ministero del Lavoro — Sezione Fondo Nuove Competenze",
+              "publisher": "Ministero del Lavoro e delle Politiche Sociali",
+              "url": "https://www.lavoro.gov.it/temi-e-priorita/orientamento-e-formazione/focus-on/fondo-nuove-competenze"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "Decreto Direttoriale n. 9 del 9 gennaio 2026 e D.D. n. 439/2024 — Avviso Fondo Nuove Competenze (Terza Edizione)",
+              "code": "D.D. n. 9/2026 — FNC 3",
+              "type": "Decreto Direttoriale",
+              "url": "https://www.lavoro.gov.it/temi-e-priorita/orientamento-e-formazione/focus-on/fondo-nuove-competenze"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-03",
+          "pillarId": "relazioni-industriali-cnel",
+          "categoryTag": "Rapporto Istituzionale / Contrattazione",
+          "priority": "Alta Priorità",
+          "title": "CNEL: riforma dell'Archivio Nazionale dei Contratti con soglie UniEmens (5% ATECO) contro il dumping contrattuale",
+          "keyFact": "Il XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva del CNEL (approvato il 22 aprile 2026) e la riorganizzazione dell'Archivio Nazionale dei Contratti Collettivi superano il criterio meramente formale di deposito introducendo soglie quantitative basate sui flussi INPS UniEmens (almeno il 5% dei lavoratori della divisione ATECO o il 3% per i contratti multisettoriali) e schede contratto standardizzate per la verifica del TEC negli appalti pubblici. I dati attestano che i contratti firmati dalle confederazioni comparativamente più rappresentative (incluso il perimetro Confsal) coprono oltre il 97% dei lavoratori privati.",
+          "strategicImpact": "Piena convergenza istituzionale con la proposta di CIFA Italia sul 'bollino blu' della rappresentanza: la misurazione oggettiva tramite flussi UniEmens valorizza la contrattazione di qualità promossa da CIFA e Confsal e isola i contratti pirata.",
+          "sources": [
+            {
+              "name": "CNEL — Approvazione XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva",
+              "publisher": "CNEL",
+              "url": "https://www.cnel.it/Comunicazione-e-Stampa/Notizie"
+            },
+            {
+              "name": "Bollettino ADAPT — Analisi sul Rapporto CNEL e rappresentanza contrattuale",
+              "publisher": "Bollettino ADAPT",
+              "url": "https://www.bollettinoadapt.it/"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "CNEL — XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva (2026)",
+              "code": "XXVII Rapporto CNEL",
+              "type": "Rapporto Istituzionale",
+              "url": "https://www.cnel.it/Documenti/Rapporti"
+            },
+            {
+              "title": "CNEL — Archivio Nazionale dei Contratti e degli Accordi Collettivi di Lavoro (ex art. 17 L. 936/1986)",
+              "code": "Archivio CCNL CNEL",
+              "type": "Banca Dati Ufficiale",
+              "url": "https://www.cnel.it/Archivio-Contratti"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-04",
+          "pillarId": "ia-competenze-pmi",
+          "categoryTag": "Normativa IA & Lavoro",
+          "priority": "Alta Priorità",
+          "title": "Intelligenza Artificiale nel Lavoro: attuazione Legge n. 132/2025, D.Lgs. n. 179/2026 e Osservatorio IA per il reskilling delle PMI",
+          "keyFact": "Con la Legge nazionale sull'Intelligenza Artificiale (Legge n. 132/2025, artt. 11-13) e i decreti legislativi attuativi del 2026 (tra cui il D.Lgs. n. 179/2026), unitamente all'operatività dell'Osservatorio sull'adozione di sistemi di IA nel mondo del lavoro presso il Ministero del Lavoro, vengono resi cogenti il principio antropocentrico, l'obbligo di informativa trasparente ai lavoratori, la riserva di supervisione umana sulle decisioni datoriali e il rafforzamento dei percorsi di alfabetizzazione digitale e formazione sulla sicurezza nelle imprese.",
+          "strategicImpact": "Genera una domanda strutturale immediata di piani formativi finanziati per le PMI italiane sull'adozione etica, organizzativa e sicura dell'IA, raccordandosi direttamente con l'Osservatorio AI promosso da FonARCom e UniEticPMI.",
+          "sources": [
+            {
+              "name": "Il Sole 24 Ore — Norme sull'IA nel lavoro e controllo umano obbligatorio",
+              "publisher": "Il Sole 24 Ore",
+              "url": "https://www.ilsole24ore.com/"
+            },
+            {
+              "name": "Euroconference News — Disposizioni sul lavoro nella Legge sull'Intelligenza Artificiale (artt. 11-13)",
+              "publisher": "Euroconference News",
+              "url": "https://www.ecnews.it/"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "Legge n. 132/2025 — Disposizioni e deleghe al Governo in materia di intelligenza artificiale (Artt. 11, 12 e 13: Disposizioni in materia di lavoro e Osservatorio IA)",
+              "code": "Legge n. 132/2025",
+              "type": "Legge dello Stato",
+              "url": "https://www.normattiva.it/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-05",
+          "pillarId": "ecosistema-cifa-fonarcom",
+          "categoryTag": "Posizionamento Istituzionale",
+          "priority": "Alta Priorità",
+          "title": "Ventennale FonARCom a Roma ('La formazione continua nell'era dell'IA') e operatività del nuovo Protocollo Metodologico IVC",
+          "keyFact": "Le celebrazioni per i 20 anni di FonARCom a Villa Miani (Roma), alla presenza del Presidente Andrea Cafà, del Vicepremier Antonio Tajani e del Ministro del Lavoro Marina Calderone, hanno sancito la candidatura dei Fondi Interprofessionali ad attuatori di nuove politiche attive del lavoro grazie a una rete di oltre 800 enti formativi a servizio delle PMI. Sul piano regolamentare interno è pienamente operativo il nuovo Protocollo Metodologico approvato dal CdA a integrazione del Regolamento IVC.",
+          "strategicImpact": "Consolida il posizionamento istituzionale di CIFA Italia e FonARCom ai massimi livelli governativi sulla convergenza tra intelligenza artificiale, capitale umano, premi di risultato e rilancio della produttività nelle PMI.",
+          "sources": [
+            {
+              "name": "FonARCom — Portale Ufficiale e Comunicati Istituzionali",
+              "publisher": "FonARCom",
+              "url": "https://www.fonarcom.it/notizie/"
+            },
+            {
+              "name": "CIFA Italia — Confederazione Italiana Federazioni Autonome",
+              "publisher": "CIFA Italia",
+              "url": "https://www.cifaitalia.it/"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "FonARCom — Nuovo Protocollo Metodologico integrativo del Regolamento IVC",
+              "code": "Delibera CdA FonARCom 2026",
+              "type": "Regolamento Interno",
+              "url": "https://www.fonarcom.it/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-06",
+          "pillarId": "bilateralita-welfare-sicurezza",
+          "categoryTag": "Salute e Sicurezza / Incentivi",
+          "priority": "Rilevante",
+          "title": "Bando ISI INAIL (Gestione 2026): chiusa la fase di consolidamento del 26 ottobre, elenchi definitivi entro il 26 gennaio 2027",
+          "keyFact": "Nell'ambito del Bando ISI INAIL per il finanziamento a fondo perduto (65% su Assi 1.1, 2, 3, 4 e fino all'80% per modelli organizzativi Asse 1.2) di progetti di miglioramento delle condizioni di salute e sicurezza nelle micro e piccole imprese, si è conclusa il 26 ottobre 2026 la finestra di caricamento della documentazione tecnica e del Modulo A; la pubblicazione degli elenchi cronologici definitivi è fissata entro il 26 gennaio 2027.",
+          "strategicImpact": "Rilevante per l'attività di assistenza tecnica e informativa verso le PMI associate a CIFA Italia e seguite dall'ente bilaterale Epar in materia di modelli organizzativi (MOG/SGSL) e prevenzione infortunistica.",
+          "sources": [
+            {
+              "name": "INAIL — Sezione Bando ISI e calendari scadenze",
+              "publisher": "INAIL",
+              "url": "https://www.inail.it/portale/it/atti-e-documenti/bandi-e-avvisi/bando-isi.html"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "INAIL — Avviso pubblico ISI e Tabella temporale scadenze 2026-2027",
+              "code": "Bando ISI INAIL",
+              "type": "Avviso Pubblico",
+              "url": "https://www.inail.it/portale/it/atti-e-documenti/bandi-e-avvisi/bando-isi.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
