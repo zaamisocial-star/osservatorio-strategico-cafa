@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Osservatorio Strategico Quotidiano — Andrea Cafà | CIFA Italia & FonARCom</title>
+  <meta name="description" content="Rassegna strategica quotidiana ad alto segnale su Formazione Continua, Politiche Attive, Relazioni Industriali, Bilateralità e PMI per Andrea Cafà (CIFA Italia & FonARCom)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="brand-badge">
+        <span class="pulse-dot"></span>
+        <span>INTELLIGENCE ISTITUZIONALE • AGGIORNAMENTO AUTOMATICO ORE 08:00 CET</span>
+      </div>
+      <div class="top-actions">
+        <button id="printBtn" class="btn-outline" title="Stampa o salva in PDF l'edizione corrente">
+          Stampa / Esporta PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-main">
+          <p class="eyebrow">PRESIDENZA CIFA ITALIA &amp; FONARCOM • SISTEMA BILATERALE EPAR / SANARCOM</p>
+          <h1 id="pageTitle">Osservatorio Strategico Quotidiano</h1>
+          <p class="subtitle" id="pageSubtitle">
+            Selezione rigorosa di atti normativi, circolari, rapporti istituzionali e posizionamenti strategici su Lavoro, Formazione Continua, Relazioni Industriali e PMI.
+          </p>
+        </div>
+        <div class="edition-card">
+          <label for="editionSelect" class="edition-label">EDIZIONE GIORNALIERA</label>
+          <select id="editionSelect" class="edition-select" aria-label="Seleziona edizione giornaliera"></select>
+          <div class="edition-meta" id="editionMeta"></div>
+        </div>
+      </div>
+
+      <div class="kpi-strip" id="kpiStrip"></div>
+
+      <div class="editorial-banner" id="editorialBanner"></div>
+    </div>
+  </section>
+
+  <main class="container main-content">
+    <div class="controls-bar">
+      <div class="pillar-tabs" id="pillarTabs" role="tablist" aria-label="Filtra per pilastro strategico"></div>
+      <div class="search-box">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Cerca decreto, circolare, ente, parola chiave (es. D.D. 227, CNEL, FNC, IA)..."
+          aria-label="Cerca nelle notizie e nei documenti"
+        />
+      </div>
+    </div>
+
+    <div id="newsContainer" class="news-list"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Osservatorio Strategico Quotidiano — Andrea Cafà</strong>
+        <p>Sistema automatico di filtraggio "Alto Segnale / Zero Rumore" con verifica diretta di fonti e atti primari.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.cifaitalia.it/" target="_blank" rel="noopener noreferrer">CIFA Italia</a>
+        <a href="https://www.fonarcom.it/" target="_blank" rel="noopener noreferrer">FonARCom</a>
+        <a href="https://www.epar.it/" target="_blank" rel="noopener noreferrer">Epar</a>
+        <a href="https://www.sanarcom.it/" target="_blank" rel="noopener noreferrer">SanArCom</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
