@@ -5,7 +5,7 @@
       subtitle: "Lavoro, Formazione Continua, Relazioni Industriali, Bilateralità e PMI",
       recipient: "Andrea Cafà — Presidente CIFA Italia & FonARCom",
       schedule: "Ogni giorno alle 08:00 (Europe/Rome)",
-      lastUpdated: "2026-11-12T08:00:00+01:00"
+      lastUpdated: "2026-11-12T12:30:00+01:00"
     },
     pillars: [
       {
@@ -48,7 +48,7 @@
           scannedSources: 48,
           discardedNoise: 42,
           selectedItems: 6,
-          primaryDocuments: 9
+          primaryDocuments: 8
         },
         items: [
           {
@@ -61,28 +61,28 @@
             strategicImpact: "Impatto diretto sulla governance, sull'adeguamento statutario e regolamentare e sulla programmazione del bilancio preventivo 2027 di FonARCom, nonché sulla gestione della portabilità e mobilità delle imprese aderenti.",
             sources: [
               {
-                name: "Dottrina per il Lavoro — Analisi Circolare MLPS n. 12/2026",
-                publisher: "Dottrina per il Lavoro",
-                url: "https://www.dottrinalavoro.it/"
+                name: "Consulenti del Lavoro — Nuove Linee Guida Fondi Interprofessionali (D.D. n. 227/2026)",
+                publisher: "Consulenti del Lavoro",
+                url: "https://www.consulentidellavoro.it/index.php/component/k2/item/19588"
               },
               {
-                name: "Consulenti del Lavoro — Nuove Linee Guida Fondi Interprofessionali",
-                publisher: "Fondazione Studi Consulenti del Lavoro",
-                url: "https://www.consulentidellavoro.it/"
+                name: "Unindustria — MLPS: Linee Guida Fondi Paritetici Interprofessionali (D.D. n. 227/2026 e allegati)",
+                publisher: "Unindustria",
+                url: "https://www.un-industria.it/canale/finanziamenti-per-la-formazione-e-occupazione/notizia/135766/mlps-linee-guida-fondi-paritetici/"
               }
             ],
             primaryDocuments: [
               {
-                title: "Ministero del Lavoro — Circolare n. 12 del 27 ottobre 2026 (Spese di funzionamento Fondi Interprofessionali)",
+                title: "Ministero del Lavoro — Circolare n. 12 del 27 ottobre 2026 (Spese di funzionamento dei Fondi Paritetici Interprofessionali – Indicazioni operative calcolo soglie massime)",
                 code: "Circolare MLPS n. 12/2026",
                 type: "Circolare Ministeriale",
-                url: "https://www.lavoro.gov.it/documenti-e-norme/normative"
+                url: null
               },
               {
-                title: "Ministero del Lavoro — Decreto Direttoriale n. 227 dell'11 maggio 2026 (Linee Guida attivazione, funzionamento e vigilanza Fondi ex art. 118 L. 388/2000)",
+                title: "Ministero del Lavoro — Decreto Direttoriale n. 227 dell'11 maggio 2026 (Linee Guida attivazione, funzionamento e vigilanza Fondi ex art. 118 L. 388/2000 — pagina con testo e allegati)",
                 code: "D.D. MLPS n. 227/2026",
                 type: "Decreto Direttoriale",
-                url: "https://www.lavoro.gov.it/temi-e-priorita/orientamento-e-formazione/focus-on/formazione-continua"
+                url: "https://www.un-industria.it/canale/finanziamenti-per-la-formazione-e-occupazione/notizia/135766/mlps-linee-guida-fondi-paritetici/"
               }
             ]
           },
@@ -96,17 +96,17 @@
             strategicImpact: "Avvalora la linea strategica sostenuta dal Presidente Cafà sul ruolo dei Fondi Interprofessionali quali attuatori diretti di politiche attive del lavoro in sinergia con Ministero del Lavoro e Regioni, in vista della strutturazione della quarta edizione del FNC.",
             sources: [
               {
-                name: "Ministero del Lavoro — Sezione Fondo Nuove Competenze",
-                publisher: "Ministero del Lavoro e delle Politiche Sociali",
-                url: "https://www.lavoro.gov.it/temi-e-priorita/orientamento-e-formazione/focus-on/fondo-nuove-competenze"
+                name: "IncentiviImpresa — Bandi formazione 2026 e stato dell'arte Fondo Nuove Competenze",
+                publisher: "IncentiviImpresa",
+                url: "https://www.incentivimpresa.it/bandi-formazione-2026-fondo-nuove-competenze/"
               }
             ],
             primaryDocuments: [
               {
-                title: "Decreto Direttoriale n. 9 del 9 gennaio 2026 e D.D. n. 439/2024 — Avviso Fondo Nuove Competenze (Terza Edizione)",
-                code: "D.D. n. 9/2026 — FNC 3",
-                type: "Decreto Direttoriale",
-                url: "https://www.lavoro.gov.it/temi-e-priorita/orientamento-e-formazione/focus-on/fondo-nuove-competenze"
+                title: "Ministero del Lavoro (Amministrazione Trasparente) — Archivio Decreti e Atti Fondo Nuove Competenze",
+                code: "Archivio Atti FNC — MLPS",
+                type: "Atti Ufficiali MLPS",
+                url: "https://trasparenza.lavoro.gov.it/archivio27_normativa_0_242.html"
               }
             ]
           },
@@ -120,28 +120,22 @@
             strategicImpact: "Piena convergenza istituzionale con la proposta di CIFA Italia sul 'bollino blu' della rappresentanza: la misurazione oggettiva tramite flussi UniEmens valorizza la contrattazione di qualità promossa da CIFA e Confsal e isola i contratti pirata.",
             sources: [
               {
-                name: "CNEL — Approvazione XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva",
+                name: "CNEL — Comunicato ufficiale approvazione XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva",
                 publisher: "CNEL",
-                url: "https://www.cnel.it/Comunicazione-e-Stampa/Notizie"
+                url: "https://www.cnel.it/comunicazione-e-stampa/notizie/news/detail/2026/04/22/approvato-xxvii-rapporto-sul-mercato-del-lavoro-e-la-contrattazione-collettiva"
               },
               {
-                name: "Bollettino ADAPT — Analisi sul Rapporto CNEL e rappresentanza contrattuale",
-                publisher: "Bollettino ADAPT",
-                url: "https://www.bollettinoadapt.it/"
+                name: "Dottrina per il Lavoro — CNEL: riorganizzazione dell'Archivio dei contratti e degli accordi collettivi di lavoro",
+                publisher: "Dottrina per il Lavoro",
+                url: "https://www.dottrinalavoro.it/notizie-c/cnel-riorganizzazione-dellarchivio-dei-contratti-e-degli-accordi-collettivi-di-lavoro"
               }
             ],
             primaryDocuments: [
               {
-                title: "CNEL — XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva (2026)",
-                code: "XXVII Rapporto CNEL",
-                type: "Rapporto Istituzionale",
-                url: "https://www.cnel.it/Documenti/Rapporti"
-              },
-              {
-                title: "CNEL — Archivio Nazionale dei Contratti e degli Accordi Collettivi di Lavoro (ex art. 17 L. 936/1986)",
-                code: "Archivio CCNL CNEL",
-                type: "Banca Dati Ufficiale",
-                url: "https://www.cnel.it/Archivio-Contratti"
+                title: "CNEL — Testo integrale PDF del XXVII Rapporto sul mercato del lavoro e la contrattazione collettiva (2026)",
+                code: "PDF XXVII Rapporto CNEL",
+                type: "Documento Originale PDF",
+                url: "https://www.cnel.it/media/docs/default-source/rapporto/rmdlcc2026-sito-27-05.pdf"
               }
             ]
           },
@@ -151,26 +145,37 @@
             categoryTag: "Normativa IA & Lavoro",
             priority: "Alta Priorità",
             title: "Intelligenza Artificiale nel Lavoro: attuazione Legge n. 132/2025, D.Lgs. n. 179/2026 e Osservatorio IA per il reskilling delle PMI",
-            keyFact: "Con la Legge nazionale sull'Intelligenza Artificiale (Legge n. 132/2025, artt. 11-13) e i decreti legislativi attuativi del 2026 (tra cui il D.Lgs. n. 179/2026), unitamente all'operatività dell'Osservatorio sull'adozione di sistemi di IA nel mondo del lavoro presso il Ministero del Lavoro, vengono resi cogenti il principio antropocentrico, l'obbligo di informativa trasparente ai lavoratori, la riserva di supervisione umana sulle decisioni datoriali e il rafforzamento dei percorsi di alfabetizzazione digitale e formazione sulla sicurezza nelle imprese.",
+            keyFact: "Con la Legge nazionale sull'Intelligenza Artificiale (Legge 23 settembre 2025, n. 132, artt. 11-13) e i decreti legislativi attuativi del 2026 (tra cui il D.Lgs. n. 179/2026), unitamente all'operatività dell'Osservatorio sull'adozione di sistemi di IA nel mondo del lavoro presso il Ministero del Lavoro, vengono resi cogenti il principio antropocentrico, l'obbligo di informativa trasparente ai lavoratori, la riserva di supervisione umana sulle decisioni datoriali e il rafforzamento dei percorsi di alfabetizzazione digitale e formazione sulla sicurezza nelle imprese.",
             strategicImpact: "Genera una domanda strutturale immediata di piani formativi finanziati per le PMI italiane sull'adozione etica, organizzativa e sicura dell'IA, raccordandosi direttamente con l'Osservatorio AI promosso da FonARCom e UniEticPMI.",
             sources: [
               {
-                name: "Il Sole 24 Ore — Norme sull'IA nel lavoro e controllo umano obbligatorio",
-                publisher: "Il Sole 24 Ore",
-                url: "https://www.ilsole24ore.com/"
+                name: "NT+ Lavoro (Il Sole 24 Ore) — Decreto 179/2026: uso dell'intelligenza artificiale nei rapporti di lavoro",
+                publisher: "Il Sole 24 Ore — NT+ Lavoro",
+                url: "https://ntpluslavoro.ilsole24ore.com/art/decreto-1792026-ancora-uso-intelligenza-artificiale-rapporti-lavoro-AJnfbOAC"
               },
               {
-                name: "Euroconference News — Disposizioni sul lavoro nella Legge sull'Intelligenza Artificiale (artt. 11-13)",
+                name: "Euroconference News — Uso dell'AI in materia di lavoro: approvazione definitiva del DDL",
                 publisher: "Euroconference News",
-                url: "https://www.ecnews.it/"
+                url: "https://www.ecnews.it/lavoro/rapporto-di-lavoro/gestione-del-rapporto/uso-ai-materia-lavoro-approvazione-definitiva-ddl/"
+              },
+              {
+                name: "Consulenti del Lavoro — In Gazzetta Ufficiale la Legge sull'Intelligenza Artificiale",
+                publisher: "Consulenti del Lavoro",
+                url: "https://www.consulentidellavoro.it/home/storico-articoli/18957-in-gu-la-legge-sull-intelligenza-artificiale"
               }
             ],
             primaryDocuments: [
               {
-                title: "Legge n. 132/2025 — Disposizioni e deleghe al Governo in materia di intelligenza artificiale (Artt. 11, 12 e 13: Disposizioni in materia di lavoro e Osservatorio IA)",
-                code: "Legge n. 132/2025",
-                type: "Legge dello Stato",
-                url: "https://www.normattiva.it/"
+                title: "Testo integrale PDF — Legge 23 settembre 2025, n. 132 (Disposizioni e deleghe al Governo in materia di intelligenza artificiale, G.U. n. 223 del 25/09/2025)",
+                code: "PDF Legge n. 132/2025",
+                type: "Documento Originale PDF",
+                url: "https://pg-perugia.giustizia.it/cmsresources/cms/documents/L%20132%202025%20Delega%20IA.pdf"
+              },
+              {
+                title: "Decreto Legislativo n. 179/2026 — Disposizioni attuative sull'impiego di sistemi di IA nei rapporti di lavoro",
+                code: "D.Lgs. n. 179/2026",
+                type: "Decreto Legislativo",
+                url: null
               }
             ]
           },
@@ -184,22 +189,27 @@
             strategicImpact: "Consolida il posizionamento istituzionale di CIFA Italia e FonARCom ai massimi livelli governativi sulla convergenza tra intelligenza artificiale, capitale umano, premi di risultato e rilancio della produttività nelle PMI.",
             sources: [
               {
-                name: "FonARCom — Portale Ufficiale e Comunicati Istituzionali",
-                publisher: "FonARCom",
-                url: "https://www.fonarcom.it/notizie/"
+                name: "Adnkronos — Lavoro, Cafà (FonARCom): 'Fondi interprofessionali pronti a diventare attuatori nuove politiche attive'",
+                publisher: "Adnkronos",
+                url: "https://www.adnkronos.com/economia/lavoro-cafa-fonarcom-fondi-interprofessionali-pronti-a-diventare-attuatori-nuove-politiche-attive_4n0UX4vPjtPE8H3waOPmc6"
               },
               {
-                name: "CIFA Italia — Confederazione Italiana Federazioni Autonome",
-                publisher: "CIFA Italia",
-                url: "https://www.cifaitalia.it/"
+                name: "Agenzia Dire — Al via le celebrazioni per i 20 anni di FonARCom guardando al futuro",
+                publisher: "Agenzia Dire",
+                url: "https://www.dire.it/10-11-2026/1287434-al-via-le-celebrazioni-per-i-20-anni-di-fonarcom-guardando-al-futuro/"
+              },
+              {
+                name: "FonARCom — Presentazione dell'Osservatorio AI UniEticPMI: 'L'impresa nell'era dell'AI'",
+                publisher: "FonARCom",
+                url: "https://www.fonarcom.it/fonarcom-presentazione-dellosservatorio-ai-unieticpmi-il-28-settembre-limpresa-nellera-dellai/"
               }
             ],
             primaryDocuments: [
               {
-                title: "FonARCom — Nuovo Protocollo Metodologico integrativo del Regolamento IVC",
-                code: "Delibera CdA FonARCom 2026",
-                type: "Regolamento Interno",
-                url: "https://www.fonarcom.it/"
+                title: "FonARCom — Approvazione del Protocollo Metodologico integrativo del Regolamento IVC (Pagina ufficiale provvedimento)",
+                code: "Protocollo Metodologico FonARCom",
+                type: "Delibera CdA",
+                url: "https://www.fonarcom.it/approvazione-del-protocollo-metodologico-fonarcom/"
               }
             ]
           },
@@ -213,17 +223,17 @@
             strategicImpact: "Rilevante per l'attività di assistenza tecnica e informativa verso le PMI associate a CIFA Italia e seguite dall'ente bilaterale Epar in materia di modelli organizzativi (MOG/SGSL) e prevenzione infortunistica.",
             sources: [
               {
-                name: "INAIL — Sezione Bando ISI e calendari scadenze",
+                name: "INAIL — Scadenza 26 ottobre 2026 perfezionamento domande Bando ISI 2025",
                 publisher: "INAIL",
-                url: "https://www.inail.it/portale/it/atti-e-documenti/bandi-e-avvisi/bando-isi.html"
+                url: "https://www.inail.it/portale/it/inail-comunica/scadenze/scadenza.2026.10.scadenza-bando-isi-2025-perfezionamento-domande.html"
               }
             ],
             primaryDocuments: [
               {
-                title: "INAIL — Avviso pubblico ISI e Tabella temporale scadenze 2026-2027",
-                code: "Bando ISI INAIL",
+                title: "INAIL — Pagina ufficiale e documentazione Bando ISI 2025 (Incentivi alle imprese per la sicurezza)",
+                code: "Bando ISI 2025 — INAIL",
                 type: "Avviso Pubblico",
-                url: "https://www.inail.it/portale/it/atti-e-documenti/bandi-e-avvisi/bando-isi.html"
+                url: "https://www.inail.it/portale/prevenzione-e-sicurezza/it/prevenzione-e-sicurezza/finanziamenti-per-la-sicurezza/incentivi-alle-imprese/bando-isi-2025.html"
               }
             ]
           }
@@ -253,6 +263,18 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;');
+  }
+
+  function isVerifiedSpecificUrl(url) {
+    if (!url || typeof url !== 'string') return false;
+    try {
+      const parsed = new URL(url.trim());
+      if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
+      const cleanPath = parsed.pathname.replace(//+$/, '');
+      return cleanPath.length > 1;
+    } catch (_) {
+      return false;
+    }
   }
 
   function getPillarById(pillarId) {
@@ -320,7 +342,7 @@
       </div>
       <div class="kpi-box">
         <div class="kpi-value">${docsCount}</div>
-        <div class="kpi-label">Atti e Documenti Primari linkati</div>
+        <div class="kpi-label">Atti e Documenti Primari citati</div>
       </div>
       <div class="kpi-box">
         <div class="kpi-value">${scanned}</div>
@@ -369,30 +391,48 @@
         const pillar = getPillarById(item.pillarId);
 
         const sourcesHtml = (item.sources || [])
-          .map(
-            (s) => `
-            <li class="link-item">
-              <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">
-                <span>&#8599;</span>
-                <span>${escapeHtml(s.name)}</span>
-              </a>
-              ${s.publisher ? `<span class="publisher-tag">(${escapeHtml(s.publisher)})</span>` : ''}
-            </li>
-          `
-          )
+          .map((s) => {
+            if (isVerifiedSpecificUrl(s.url)) {
+              return `
+                <li class="link-item">
+                  <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">
+                    <span>&#8599;</span>
+                    <span>${escapeHtml(s.name)}</span>
+                  </a>
+                  ${s.publisher ? `<span class="publisher-tag">(${escapeHtml(s.publisher)})</span>` : ''}
+                </li>
+              `;
+            }
+            return `
+              <li class="link-item">
+                <span class="doc-static-text">${escapeHtml(s.name)}</span>
+                ${s.publisher ? `<span class="publisher-tag">(${escapeHtml(s.publisher)})</span>` : ''}
+              </li>
+            `;
+          })
           .join('');
 
         const docsHtml = (item.primaryDocuments || [])
-          .map(
-            (d) => `
-            <li class="link-item">
-              <a href="${escapeHtml(d.url)}" target="_blank" rel="noopener noreferrer">
-                <span class="doc-badge">${escapeHtml(d.code || d.type || 'ATTO')}</span>
-                <span>${escapeHtml(d.title)}</span>
-              </a>
-            </li>
-          `
-          )
+          .map((d) => {
+            if (isVerifiedSpecificUrl(d.url)) {
+              return `
+                <li class="link-item">
+                  <a href="${escapeHtml(d.url)}" target="_blank" rel="noopener noreferrer">
+                    <span class="doc-badge">${escapeHtml(d.code || d.type || 'ATTO')}</span>
+                    <span>&#8599; ${escapeHtml(d.title)}</span>
+                  </a>
+                </li>
+              `;
+            }
+            return `
+              <li class="link-item">
+                <div class="doc-static-item">
+                  <span class="doc-badge">${escapeHtml(d.code || d.type || 'ATTO')}</span>
+                  <span class="doc-static-text">${escapeHtml(d.title)}</span>
+                </div>
+              </li>
+            `;
+          })
           .join('');
 
         return `
