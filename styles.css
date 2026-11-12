@@ -412,6 +412,21 @@ body {
   margin-right: 4px;
 }
 
+.doc-static-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--navy-800);
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
+.doc-static-text {
+  color: var(--navy-800);
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
 .publisher-tag {
   font-size: 0.76rem;
   color: var(--text-muted);
