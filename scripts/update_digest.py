@@ -4,6 +4,49 @@ import json
 import os
 import pathlib
 import sys
+import urllib.parse
+import urllib.request
+
+
+def verify_and_resolve_url(url):
+    if not url or not isinstance(url, str):
+        return None
+    url = url.strip()
+    if not url.startswith(("http://", "https://")):
+        return None
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; OsservatorioStrategicoVerifier/1.0)"},
+        )
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            if resp.status != 200:
+                return None
+            final_url = resp.geturl()
+            parsed = urllib.parse.urlparse(final_url)
+            clean_path = parsed.path.rstrip("/")
+            if len(clean_path) <= 1:
+                return None
+            return final_url
+    except Exception:
+        return None
+
+
+def sanitize_edition_links(edition):
+    for item in edition.get("items", []):
+        verified_sources = []
+        for src in item.get("sources", []):
+            real_url = verify_and_resolve_url(src.get("url"))
+            if real_url:
+                src["url"] = real_url
+                verified_sources.append(src)
+        item["sources"] = verified_sources
+
+        for doc in item.get("primaryDocuments", []):
+            real_doc_url = verify_and_resolve_url(doc.get("url"))
+            doc["url"] = real_doc_url
+    return edition
+
 
 def main():
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -22,7 +65,7 @@ def main():
         "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
         "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"
     ]
-    giorni = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Domenica", "Sabato"]
+    giorni = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"]
     display_date = f"{giorni[today.weekday()]} {today.day} {mes[today.month - 1]} {today.year}"
 
     prompt = f"""
@@ -33,6 +76,10 @@ Esegui una ricerca web sulle notizie e sugli atti pubblicati nelle ultime 24-48 
 3. bilateralita-welfare-sicurezza
 4. ia-competenze-pmi
 5. ecosistema-cifa-fonarcom
+
+REGOLA TASSATIVA E INDEROGABILE SUI LINK:
+- In `sources`, inserisci solo gli URL esatti degli articoli o comunicati specifici (mai la homepage di un sito).
+- In `primaryDocuments` ("Documenti Primari e Atti Citati"), inserisci un valore in `url` ESCLUSIVAMENTE se hai il link diretto, certo, reale e verificato al documento originale (es. PDF) o alla specifica pagina web che lo contiene. Se non hai questa informazione certa, reale e verificata, imposta `"url": null` (non inventare né inserire mai URL generici di portali o sezioni).
 
 Restituisci ESCLUSIVAMENTE un oggetto JSON valido (senza markdown fence) per l'edizione odierna con le chiavi: date, displayDate, editorialNote, stats, items.
 """
@@ -50,7 +97,7 @@ Restituisci ESCLUSIVAMENTE un oggetto JSON valido (senza markdown fence) per l'e
     if raw_text.startswith("```"):
         raw_text = raw_text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
 
-    new_edition = json.loads(raw_text)
+    new_edition = sanitize_edition_links(json.loads(raw_text))
 
     data_path = pathlib.Path(__file__).resolve().parent.parent / "data" / "editions.json"
     with open(data_path, "r", encoding="utf-8") as f:
@@ -64,7 +111,8 @@ Restituisci ESCLUSIVAMENTE un oggetto JSON valido (senza markdown fence) per l'e
     with open(data_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"Edizione {date_str} aggiornata con successo in data/editions.json")
+    print(f"Edizione {date_str} aggiornata e verificata con successo in data/editions.json")
+
 
 if __name__ == "__main__":
     main()
