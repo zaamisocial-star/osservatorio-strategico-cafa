@@ -1,0 +1,41 @@
+name: Aggiornamento Quotidiano Rassegna (08:00 CET)
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-rassegna:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install google-genai
+
+      - name: Genera nuova edizione giornaliera con Gemini + Google Search Grounding
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/update_digest.py
+
+      - name: Commit e Push su GitHub (attiva il deploy automatico su Vercel)
+        run: |
+          git config user.name "Osservatorio Bot"
+          git config user.email "bot@osservatorio-strategico.local"
+          git add data/editions.json
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica a data/editions.json"
+          else
+            git commit -m "chore(rassegna): aggiornamento automatico edizione $(date +'%Y-%m-%d')"
+            git push
+          fi
