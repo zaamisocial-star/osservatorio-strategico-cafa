@@ -69,17 +69,17 @@ def main():
     display_date = f"{giorni[today.weekday()]} {today.day} {mes[today.month - 1]} {today.year}"
 
     prompt = f"""
-Agisci come analista strategico per Andrea Cafà (Presidente di CIFA Italia e di FonARCom, sistema bilaterale Epar / SanArCom).
-Esegui una ricerca web sulle notizie e sugli atti pubblicati nelle ultime 24-48 ore (fino al {date_str}) sui 5 pilastri:
-1. formazione-politiche-attive
-2. relazioni-industriali-cnel
-3. bilateralita-welfare-sicurezza
-4. ia-competenze-pmi
-5. ecosistema-cifa-fonarcom
+Agisci come analista strategico per Andrea Cafà (Presidente di CIFA Italia, di FonARCom e del Consorzio Universitario UniEticPMI, vertice di riferimento per Epar, SanArCom, l'Osservatorio AI UniEticPMI e il Centro Studi #IlLavoroContinua).
+Esegui una ricerca web sulle notizie e sugli atti pubblicati nelle ultime 24-48 ore (fino al {date_str}) sui 5 pilastri strategici integrati con i nuovi focus tematici:
+1. formazione-politiche-attive: Fondi Paritetici Interprofessionali, Fondo Nuove Competenze (FNC), GOL, SIISL, formazione obbligatoria e continua di lavoratori e datori di lavoro (Nuovo Accordo Stato-Regioni ex D.Lgs. 81/08) e attività di studio e orientamento del Centro Studi #IlLavoroContinua di CIFA Italia.
+2. relazioni-industriali-cnel: Contrattazione collettiva (CCNL), misurazione della rappresentanza tramite flussi INPS UniEmens, contrasto al dumping contrattuale e Archivio Nazionale CNEL.
+3. bilateralita-welfare-sicurezza: Fondi destinati al welfare aziendale e contrattuale, fondi sanitari integrativi iscritti all'Anagrafe Ministero della Salute (focus specifico ambito SanArCom), fringe benefit e conversione premi di risultato in welfare (art. 51 TUIR), ente bilaterale Epar, bandi e circolari INAIL.
+4. ia-competenze-pmi: Osservatorio sulle AI (Osservatorio nazionale IA presso il Ministero del Lavoro e Osservatorio AI del Dipartimento Data & AI di UniEticPMI), Alta Formazione universitaria, master e competenze manageriali per le PMI (focus specifico ambito Consorzio UniEticPMI), Legge n. 132/2025, D.Lgs. n. 179/2026 e AI Act UE.
+5. ecosistema-cifa-fonarcom: Posizionamenti istituzionali, avvisi, regolamenti e iniziative di Andrea Cafà, CIFA Italia, FonARCom, Confsal, UniEticPMI, Osservatorio AI, SanArCom, Epar e Centro Studi #IlLavoroContinua.
 
 REGOLA TASSATIVA E INDEROGABILE SUI LINK:
 - In `sources`, inserisci solo gli URL esatti degli articoli o comunicati specifici (mai la homepage di un sito).
-- In `primaryDocuments` ("Documenti Primari e Atti Citati"), inserisci un valore in `url` ESCLUSIVAMENTE se hai il link diretto, certo, reale e verificato al documento originale (es. PDF) o alla specifica pagina web che lo contiene. Se non hai questa informazione certa, reale e verificata, imposta `"url": null` (non inventare né inserire mai URL generici di portali o sezioni).
+- In `primaryDocuments` ("Documenti Primari e Atti Citati"), inserisci un valore in `url` ESCLUSIVAMENTE se hai il link diretto, certo, reale e verificato al documento originale (es. PDF) o alla specifica pagina web che lo contiene. Se non hai questa informazione certa, reale e verificata, imposta "url": null (non inventare né inserire mai URL generici di portali o sezioni).
 
 Restituisci ESCLUSIVAMENTE un oggetto JSON valido (senza markdown fence) per l'edizione odierna con le chiavi: date, displayDate, editorialNote, stats, items.
 """
