@@ -2,23 +2,23 @@
   const FALLBACK_DATA = {
   "meta": {
     "title": "Osservatorio Strategico Quotidiano",
-    "subtitle": "Lavoro, Formazione Continua, Relazioni Industriali, Welfare (SanArCom), Alta Formazione & AI (UniEticPMI) e Centro Studi #IlLavoroContinua",
+    "subtitle": "Fonti Istituzionali Nazionali & Maggiori Testate Economiche Mondiali (Tradotte in Italiano) • CIFA Italia, FonARCom, UniEticPMI, SanArCom & Centro Studi #IlLavoroContinua",
     "recipient": "Andrea Cafà — Presidente CIFA Italia, FonARCom & UniEticPMI",
     "schedule": "Ogni giorno alle 08:00 (Europe/Rome)",
-    "lastUpdated": "2026-11-15T12:10:00+01:00"
+    "lastUpdated": "2026-11-16T09:50:00+01:00"
   },
   "pillars": [
     {
       "id": "formazione-politiche-attive",
       "name": "Formazione Lavoratori & Datori di Lavoro (#IlLavoroContinua) e Politiche Attive",
       "shortName": "Formazione & #IlLavoroContinua",
-      "description": "Fondi Interprofessionali, FNC, GOL, SIISL, formazione obbligatoria e continua di lavoratori e datori di lavoro (Nuovo Accordo Stato-Regioni) e Centro Studi #IlLavoroContinua"
+      "description": "Fondi Interprofessionali, FNC, GOL, SIISL, formazione obbligatoria e continua di lavoratori e datori di lavoro (Nuovo Accordo Stato-Regioni), Centro Studi #IlLavoroContinua e rapporti OIL/Cedefop"
     },
     {
       "id": "relazioni-industriali-cnel",
       "name": "Relazioni Industriali, CCNL & CNEL",
       "shortName": "CCNL & CNEL",
-      "description": "Qualità della rappresentanza datoriale e sindacale, flussi UniEmens, contrasto al dumping contrattuale, Archivio Nazionale CNEL"
+      "description": "Qualità della rappresentanza datoriale e sindacale, flussi UniEmens, contrasto al dumping contrattuale, Archivio Nazionale CNEL e trend globali del lavoro"
     },
     {
       "id": "bilateralita-welfare-sicurezza",
@@ -28,9 +28,9 @@
     },
     {
       "id": "ia-competenze-pmi",
-      "name": "Osservatorio sulle AI & Alta Formazione (UniEticPMI)",
+      "name": "Osservatorio sulle AI & Alta Formazione (UniEticPMI & Testate Mondiali)",
       "shortName": "Osservatorio AI & UniEticPMI",
-      "description": "Osservatorio sulle AI (MLPS e Dipartimento Data & AI UniEticPMI), Alta Formazione universitaria e manageriale per le PMI (Consorzio UniEticPMI), Legge IA n. 132/2025 e D.Lgs. 179/2026"
+      "description": "Osservatorio sulle AI (MLPS, Dipartimento Data & AI UniEticPMI, OCSE/WEF), Alta Formazione universitaria e manageriale per le PMI (Consorzio UniEticPMI e grandi testate economiche mondiali), L. 132/2025 e D.Lgs. 179/2026"
     },
     {
       "id": "ecosistema-cifa-fonarcom",
@@ -41,16 +41,91 @@
   ],
   "editions": [
     {
-      "date": "2026-11-15",
-      "displayDate": "Domenica 15 Novembre 2026",
-      "editorialNote": "Edizione integrata con i 4 nuovi assi di analisi strategica: (1) Osservatorio sulle AI e Alta Formazione universitaria per le PMI nell'ambito del Consorzio UniEticPMI; (2) Fondi destinati al Welfare e Sanità Integrativa nell'ambito di SanArCom (deducibilità 3.615,20 € ex art. 51 TUIR, fringe benefit e Risoluzione AdE n. 22/2026 sui premi di risultato); (3) Formazione di Lavoratori e Datori di Lavoro nell'ambito del Centro Studi #IlLavoroContinua e piena operatività del Nuovo Accordo Stato-Regioni (Rep. Atti n. 59/CSR); oltre ai dossier su Circolare MLPS n. 12/2026, Fondo Nuove Competenze, Archivio Contratti CNEL, Legge IA n. 132/2025 e Ventennale FonARCom.",
+      "date": "2026-11-16",
+      "displayDate": "Lunedì 16 Novembre 2026",
+      "editorialNote": "Edizione potenziata con il monitoraggio delle maggiori testate economiche mondiali e degli organismi economici internazionali (Financial Times, Harvard Business School, Fortune, OCSE/OECD, OIL/ILO, Cedefop, Commissione Europea), interamente tradotti in italiano, integrati con i focus su Osservatorio AI e Alta Formazione (UniEticPMI), Fondi destinati al Welfare e Sanità Integrativa (SanArCom), Formazione Lavoratori e Datori di Lavoro (Centro Studi #IlLavoroContinua e Nuovo Accordo Stato-Regioni), Circolare MLPS n. 12/2026, Fondo Nuove Competenze e Archivio Contratti CNEL.",
       "stats": {
-        "scannedSources": 64,
-        "discardedNoise": 55,
-        "selectedItems": 9,
-        "primaryDocuments": 15
+        "scannedSources": 82,
+        "discardedNoise": 71,
+        "selectedItems": 11,
+        "primaryDocuments": 19
       },
       "items": [
+        {
+          "id": "2026-11-16-01",
+          "pillarId": "ia-competenze-pmi",
+          "categoryTag": "Testate Economiche Mondiali [Tradotto in IT] / Alta Formazione & AI",
+          "priority": "Alta Priorità",
+          "title": "[Tradotto da EN — Financial Times / Harvard Business School / Fortune / OCSE] Il paradosso globale degli investimenti in IA: le imprese acquistano tecnologia ma trascurano l'Alta Formazione manageriale e il reskilling",
+          "keyFact": "Le inchieste e gli studi pubblicati dalle maggiori testate economiche e business school mondiali (Financial Times, Harvard Business School — Digital Data Design Institute, Fortune e OCSE) documentano un divario strutturale nei bilanci delle imprese: mentre la spesa per licenze e infrastrutture di Intelligenza Artificiale cresce rapidamente, gli investimenti formali in formazione e sviluppo delle persone (Learning & Development) restano insufficienti. I vertici europei del Financial Times ('AI Skills at Work' e 'Hybrid Workforce') e il nuovo quadro OCSE sulle competenze IA per le imprese evidenziano che, senza percorsi mirati di Alta Formazione per imprenditori, dirigenti e quadri (profili 'AI Leaders' e 'AI Professionals') volti a presidiare il giudizio critico e la riorganizzazione dei processi, l'adozione tecnologica non si traduce in crescita reale della produttività.",
+          "strategicImpact": "Rafforza con evidenze economiche internazionali la missione del Consorzio Universitario UniEticPMI (presieduto da Andrea Cafà), del suo Osservatorio AI e di FonARCom: accompagnare le PMI italiane combinando Alta Formazione manageriale/accademica e piani formativi aziendali finanziati.",
+          "sources": [
+            {
+              "name": "[Tradotto da EN] Financial Times — Competenze IA sul lavoro: costruire un mercato del lavoro europeo competitivo attraverso la formazione continua",
+              "publisher": "Financial Times (Tradotto in IT)",
+              "url": "https://aiskillsatwork.live.ft.com/"
+            },
+            {
+              "name": "[Tradotto da EN] Financial Times — Orchestrare la forza lavoro ibrida uomo-IA: nuove strategie per manager e imprese",
+              "publisher": "Financial Times (Tradotto in IT)",
+              "url": "https://live.ft.com/hybridworkforce"
+            },
+            {
+              "name": "[Tradotto da EN] Fortune — Upskilling sull'IA in Europa: perché la riqualificazione dei lavoratori è la chiave per sbloccare la produttività",
+              "publisher": "Fortune (Tradotto in IT)",
+              "url": "https://fortune.com/2026/03/16/ai-upskilling-google-emea-president-debbie-weinstein/"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "[Tradotto da EN] Harvard Business School (Digital Data Design Institute) — Riqualificare il personale e il management nell'era dell'Intelligenza Artificiale",
+              "code": "Studio Harvard Business School",
+              "type": "Rapporto Internazionale",
+              "url": "https://aiinstitute.hbs.edu/reskilling-in-the-age-of-ai/"
+            },
+            {
+              "title": "[Tradotto da EN] OCSE (OECD AI Policy Observatory) — Quadro delle competenze sull'Intelligenza Artificiale per le imprese e i leader aziendali (AI Skills for Business Competency Framework)",
+              "code": "Quadro Competenze IA — OCSE",
+              "type": "Documento Ufficiale OCSE",
+              "url": "https://oecd.ai/en/dashboards/policy-initiatives/ai-skills-for-business-competency-framework-6658"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-02",
+          "pillarId": "formazione-politiche-attive",
+          "categoryTag": "Organismi Economici Internazionali [Tradotto in IT] / Competenze & PMI",
+          "priority": "Alta Priorità",
+          "title": "[Tradotto da EN — OIL / Cedefop / Commissione Europea] L'alfabetizzazione all'IA è la nuova competenza di base, ma solo il 15% dei lavoratori europei ha ricevuto formazione strutturata",
+          "keyFact": "Il nuovo studio dell'Organizzazione Internazionale del Lavoro (OIL/ILO, 'L'impatto dell'IA sulla domanda di competenze'), insieme ai dati della Commissione Europea (DG Occupazione) e del Cedefop, rileva che sebbene il 30% delle imprese europee abbia introdotto strumenti di IA (con un utilizzo del 40% tra gli impiegati e i quadri a fronte del 6% nei ruoli operativi), appena il 15% dei lavoratori adulti ha partecipato a corsi di formazione mirati. I rapporti definiscono l'alfabetizzazione all'IA (nelle tre dimensioni tecnica, analitica ed etica) come competenza di base indispensabile sia per i lavoratori sia per i datori di lavoro, indicando nella modernizzazione della formazione continua (CVT) per le micro, piccole e medie imprese la priorità assoluta per le politiche attive europee.",
+          "strategicImpact": "Fornisce dati comparativi internazionali di primario rilievo per le ricerche del Centro Studi #IlLavoroContinua di CIFA Italia e per la progettazione degli Avvisi di FonARCom dedicati all'alfabetizzazione digitale e all'inclusione formativa nelle PMI.",
+          "sources": [
+            {
+              "name": "[Tradotto da EN] Commissione Europea (DG Occupazione e Affari Sociali) — IA e competenze in Europa: colmare il divario di adozione tra imprese e lavoratori",
+              "publisher": "Commissione Europea (Tradotto in IT)",
+              "url": "https://employment-social-affairs.ec.europa.eu/news/ai-and-skills-europe-closing-adoption-gap-2026-10-23_en"
+            },
+            {
+              "name": "[Tradotto da EN] Cedefop — L'alfabetizzazione all'Intelligenza Artificiale come nuova competenza di base per la forza lavoro europea",
+              "publisher": "Cedefop — Agenzia UE Formazione (Tradotto in IT)",
+              "url": "https://www.cedefop.europa.eu/en/news/ai-literacy-new-basic-skill-europes-workforce"
+            }
+          ],
+          "primaryDocuments": [
+            {
+              "title": "[Tradotto da EN] OIL / ILO — Testo integrale PDF: L'impatto dell'Intelligenza Artificiale sulla domanda di competenze nel mercato del lavoro (Agosto 2026)",
+              "code": "PDF Rapporto OIL / ILO 2026",
+              "type": "Documento Originale PDF",
+              "url": "https://www.ilo.org/sites/default/files/2026-08/Final%20version_IAG%20paper_AI%27s%20impact%20on%20skills%20demand_0.pdf"
+            },
+            {
+              "title": "[Tradotto da EN] OIL / Cedefop / UNESCO — Rapporto congiunto: Il mutamento del panorama delle competenze nell'era dell'Intelligenza Artificiale",
+              "code": "Rapporto OIL-Cedefop-UNESCO",
+              "type": "Pubblicazione Ufficiale",
+              "url": "https://www.ilo.org/publications/changing-landscape-skills-age-ai"
+            }
+          ]
+        },
         {
           "id": "2026-11-15-01",
           "pillarId": "ia-competenze-pmi",
@@ -357,7 +432,6 @@
     }
   ]
 };
-
   let appData = null;
   let currentEditionIndex = 0;
   let activePillar = 'all';
@@ -405,6 +479,7 @@
       }
     );
   }
+
   function renderEditionSelect() {
     editionSelect.innerHTML = appData.editions
       .map(
