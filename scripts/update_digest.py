@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import datetime
+import email.utils
 import json
 import os
 import pathlib
@@ -40,12 +41,25 @@ def verify_and_resolve_url(url):
         return None
 
 
-def fetch_anonymous_expert_signals(experts_path):
+def is_within_last_7_days(pub_date_str, today_date):
+    """Verifica rigorosamente che la data di pubblicazione cada nei 7 giorni antecedenti a today_date."""
+    if not pub_date_str:
+        return False
+    try:
+        dt = email.utils.parsedate_to_datetime(pub_date_str.strip())
+        pub_d = dt.date()
+        cutoff_d = today_date - datetime.timedelta(days=7)
+        return cutoff_d <= pub_d <= today_date
+    except Exception:
+        return False
+
+
+def fetch_anonymous_expert_signals(experts_path, today_date):
     """
-    Raccoglie segnali pubblici in forma 100% anonima, gratuita e senza login:
-    1. Feed RSS diretti e Substack degli esperti (senza login)
-    2. Google News RSS con filtro social/blog pubblici (linkedin.com/posts, x.com, substack.com, bsky.app)
-    3. OpenAlex Public API (api.openalex.org) per nuovi working paper e studi dei 100 esperti
+    Raccoglie segnali pubblici dei 100 Esperti in forma 100% anonima, gratuita e senza login,
+    filtrando ESCLUSIVAMENTE gli interventi pubblicati nei 7 giorni antecedenti alla data odierna:
+    1. Feed RSS diretti e Substack degli esperti (filtro pubDate >= today - 7 giorni)
+    2. Google News RSS con parametro when:7d e verifica pubDate >= today - 7 giorni
     """
     signals = []
     try:
@@ -54,46 +68,51 @@ def fetch_anonymous_expert_signals(experts_path):
     except Exception:
         experts_data = {"themes": []}
 
-    # 1. Lettura diretta Feed RSS / Substack pubblici senza login
+    # 1. Lettura diretta Feed RSS / Substack pubblici senza login (solo ultimi 7 giorni)
     for feed_label, feed_url in FREE_PUBLIC_EXPERT_FEEDS:
         try:
             req = urllib.request.Request(feed_url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=10) as resp:
                 if resp.status == 200:
                     root = ET.fromstring(resp.read())
-                    for item in root.findall(".//item")[:3]:
+                    for item in root.findall(".//item"):
+                        pub_str = (item.findtext("pubDate") or "").strip()
+                        if not is_within_last_7_days(pub_str, today_date):
+                            continue
                         title = (item.findtext("title") or "").strip()
                         link = (item.findtext("link") or "").strip()
                         if title and link:
-                            signals.append(f"[Feed Pubblico No-Login: {feed_label}] {title} -> {link}")
+                            signals.append(f"[Feed No-Login Ultimi 7gg ({pub_str[:16]}): {feed_label}] {title} -> {link}")
         except Exception:
             continue
 
-    # 2. Interrogazione Google News RSS per post pubblici e uscite stampa dei 100 esperti (senza login)
+    # 2. Interrogazione Google News RSS (when:7d) per i 100 esperti (solo ultimi 7 giorni)
     all_names = []
     for th in experts_data.get("themes", []):
         for exp in th.get("italia", []) + th.get("europa_uk", []):
             all_names.append(exp["name"])
 
-    # Campionamento a blocchi per interrogare Google News RSS senza autenticazione
-    for i in range(0, min(len(all_names), 30), 6):
-        batch = all_names[i : i + 6]
-        query = " OR ".join(f'"{name}"' for name in batch)
+    for i in range(0, len(all_names), 5):
+        batch = all_names[i : i + 5]
+        query = " OR ".join(f'"{name}"' for name in batch) + " when:7d"
         rss_url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=it&gl=IT&ceid=IT:it"
         try:
             req = urllib.request.Request(rss_url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=10) as resp:
                 if resp.status == 200:
                     root = ET.fromstring(resp.read())
-                    for item in root.findall(".//item")[:2]:
+                    for item in root.findall(".//item")[:3]:
+                        pub_str = (item.findtext("pubDate") or "").strip()
+                        if not is_within_last_7_days(pub_str, today_date):
+                            continue
                         title = (item.findtext("title") or "").strip()
                         link = (item.findtext("link") or "").strip()
                         if title and link:
-                            signals.append(f"[Google News RSS No-Login] {title} -> {link}")
+                            signals.append(f"[Google News RSS Ultimi 7gg ({pub_str[:16]})] {title} -> {link}")
         except Exception:
             continue
 
-    return "\n".join(signals[:25])
+    return "\n".join(signals[:30])
 
 
 def sanitize_edition_links(edition):
@@ -121,9 +140,13 @@ def main():
     from google import genai
     from google.genai import types
 
+    today = datetime.date.today()
+    date_str = today.strftime("%Y-%m-%d")
+    start_7d = (today - datetime.timedelta(days=7)).strftime("%Y-%m-%d")
+
     base_dir = pathlib.Path(__file__).resolve().parent.parent
     experts_path = base_dir / "data" / "experts_100.json"
-    anonymous_signals = fetch_anonymous_expert_signals(experts_path)
+    anonymous_signals = fetch_anonymous_expert_signals(experts_path, today)
 
     with open(experts_path, "r", encoding="utf-8") as f:
         experts_registry = json.load(f)
@@ -136,8 +159,6 @@ def main():
     experts_prompt_block = "\n".join(experts_summary)
 
     client = genai.Client(api_key=api_key)
-    today = datetime.date.today()
-    date_str = today.strftime("%Y-%m-%d")
 
     mes = [
         "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
@@ -148,21 +169,23 @@ def main():
 
     prompt = f"""
 Agisci come analista strategico per Andrea Cafà (Presidente di CIFA Italia, di FonARCom e del Consorzio Universitario UniEticPMI, vertice di riferimento per Epar, SanArCom, l'Osservatorio AI UniEticPMI e il Centro Studi #IlLavoroContinua).
-Esegui una ricerca web sulle notizie, sugli atti e sugli interventi pubblici pubblicati nelle ultime 24-48 ore (fino al {date_str}) sia sulle fonti istituzionali italiane sia sulle MAGGIORI TESTATE ECONOMICHE MONDIALI (Financial Times, Wall Street Journal, Bloomberg, The Economist, Reuters, Harvard Business Review / HBS, MIT Sloan, Fortune, Forbes, Les Echos, Handelsblatt, WEF, OCSE/OECD, OIL/ILO, Cedefop, Commissione Europea) sui 5 pilastri strategici:
+Esegui una ricerca web sulle notizie, sugli atti e sugli interventi pubblici pubblicati sia sulle fonti istituzionali italiane sia sulle MAGGIORI TESTATE ECONOMICHE MONDIALI (Financial Times, Wall Street Journal, Bloomberg, The Economist, Reuters, Harvard Business Review / HBS, MIT Sloan, Fortune, Forbes, Les Echos, Handelsblatt, WEF, OCSE/OECD, OIL/ILO, Cedefop, Commissione Europea) sui 5 pilastri strategici:
 1. formazione-politiche-attive: Fondi Interprofessionali, FNC, GOL, SIISL, formazione lavoratori e datori di lavoro (Nuovo Accordo Stato-Regioni) e Centro Studi #IlLavoroContinua.
 2. relazioni-industriali-cnel: Contrattazione collettiva (CCNL), rappresentanza UniEmens, contrasto al dumping e Archivio CNEL.
 3. bilateralita-welfare-sicurezza: Fondi destinati al welfare e sanità integrativa (ambito SanArCom), fringe benefit e premi di risultato (art. 51 TUIR), Epar, bandi INAIL e sicurezza sul lavoro.
 4. ia-competenze-pmi: Osservatorio sulle AI (MLPS e Dipartimento Data & AI UniEticPMI), Alta Formazione per le PMI (Consorzio UniEticPMI), L. 132/2025, D.Lgs. 179/2026 e AI Act UE.
 5. ecosistema-cifa-fonarcom: Iniziative di Andrea Cafà, CIFA Italia, FonARCom, Confsal, UniEticPMI, SanArCom, Epar e Centro Studi #IlLavoroContinua.
 
-MONITORAGGIO OBBLIGATORIO DEI 100 ESPERTI (WEB & SOCIAL PUBBLICI SENZA LOGIN):
-Monitora inoltre le uscite pubbliche (articoli, studi, interviste e post pubblici indicizzati su LinkedIn, Substack, X, Bluesky e blog accademici senza login) dei seguenti 100 esperti:
+MONITORAGGIO OBBLIGATORIO DEI 100 ESPERTI — FINESTRA TASSATIVA DI 7 GIORNI (DAL {start_7d} AL {date_str}):
+Monitora le uscite pubbliche (articoli, studi, interviste e post pubblici indicizzati su LinkedIn, Substack, X, Bluesky e blog accademici senza login) dei seguenti 100 esperti:
 {experts_prompt_block}
 
-Segnali raccolti dai feed pubblici no-login:
-{anonymous_signals}
+VINCOLO TEMPORALE INDEROGABILE SUI 100 ESPERTI:
+- Le notizie relative al monitoraggio dei 100 esperti devono coprire SEMPRE E SOLO i 7 giorni antecedenti alla data odierna (esclusivamente dal {start_7d} al {date_str} inclusi).
+- È severamente vietato inserire articoli, paper o interventi dei 100 esperti pubblicati prima del {start_7d}. Riporta sempre la data esatta dell'intervento (compresa tra {start_7d} e {date_str}).
 
-Quando uno o più di questi 100 esperti esce pubblicamente su uno dei 5 temi, inseriscilo tra le notizie selezionate!
+Segnali verificati negli ultimi 7 giorni ({start_7d} – {date_str}) dai feed pubblici no-login:
+{anonymous_signals}
 
 REGOLA OBBLIGATORIA DI TRADUZIONE IN ITALIANO:
 - Ogni articolo, studio, paper o post social proveniente da testate economiche mondiali o dagli esperti europei/UK in lingua straniera deve SEMPRE essere tradotto e sintetizzato integralmente in lingua italiana.
