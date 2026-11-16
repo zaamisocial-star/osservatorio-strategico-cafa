@@ -5,7 +5,7 @@
                  "subtitle":  "Fonti Istituzionali, Maggiori Testate Economiche Mondiali (Tradotte in IT) & Monitoraggio Web/Social No-Login dei 100 Esperti • CIFA Italia, FonARCom, UniEticPMI, SanArCom & #IlLavoroContinua",
                  "recipient":  "Andrea Cafà — Presidente CIFA Italia, FonARCom & UniEticPMI",
                  "schedule":  "Ogni giorno alle 08:00 (Europe/Rome)",
-                 "lastUpdated":  "2026-11-16T11:08:00+01:00"
+                 "lastUpdated":  "2026-11-16T12:28:00+01:00"
              },
     "pillars":  [
                     {
@@ -43,12 +43,12 @@
                      {
                          "date":  "2026-11-16",
                          "displayDate":  "Lunedì 16 Novembre 2026",
-                         "editorialNote":  "Edizione integrale con: (1) Maggiori Testate Economiche Mondiali e Organismi Internazionali (Financial Times, Harvard Business School, Fortune, OCSE, OIL/ILO, Cedefop) tradotti in italiano; (2) Monitoraggio Web e Social Pubblici No-Login (Substack, OpenAlex, Blog accademici) del Panel dei 100 Esperti (Antonio Aloisi, Fabian Stephany, Carl Benedikt Frey, Marco Bentivogli, Luca Pietrantoni, Michele Tiraboschi, Pietro Ichino, Maurizio Del Conte, Franca Maino, Maurizio Ferrera, Alessandro Rosina, Alessandro Marinaccio, Andrea Prencipe); (3) Focus su Osservatorio AI e Alta Formazione (UniEticPMI), Fondi Welfare (SanArCom), Formazione Lavoratori e Datori di Lavoro (#IlLavoroContinua e Nuovo Accordo Stato-Regioni), Circolare MLPS n. 12/2026, FNC e CNEL.",
+                         "editorialNote":  "Edizione integrale con: (1) Maggiori Testate Economiche Mondiali e Organismi Internazionali (Financial Times, Harvard Business School, Fortune, OCSE, OIL/ILO, Cedefop) tradotti in italiano; (2) Monitoraggio Web e Social Pubblici No-Login del Panel dei 100 Esperti rigorosamente circoscritto agli ULTIMI 7 GIORNI (9–16 Novembre 2026: Massimo Baldini, Andrea Prencipe, Marco Bentivogli, Maurizio Del Conte, Franca Maino, Maurizio Ferrera, Alessandro Rosina, lavoce.info e Percorsi di Secondo Welfare); (3) Focus su Osservatorio AI e Alta Formazione (UniEticPMI), Fondi Welfare (SanArCom), Formazione Lavoratori e Datori di Lavoro (#IlLavoroContinua e Nuovo Accordo Stato-Regioni), Circolare MLPS n. 12/2026, FNC e CNEL.",
                          "stats":  {
                                        "scannedSources":  182,
                                        "discardedNoise":  168,
                                        "selectedItems":  14,
-                                       "primaryDocuments":  25
+                                       "primaryDocuments":  24
                                    },
                          "items":  [
                                        {
@@ -129,120 +129,100 @@
                                        {
                                            "id":  "2026-11-16-exp-01",
                                            "pillarId":  "ia-competenze-pmi",
-                                           "categoryTag":  "Osservatorio 100 Esperti [Web & Social No-Login] / AI & Lavoro",
+                                           "categoryTag":  "Monitoraggio 100 Esperti [Ultimi 7 Giorni: 9–16 Nov 2026] / AI & Formazione",
                                            "priority":  "Alta Priorità",
-                                           "title":  "Monitoraggio 100 Esperti (AI & Lavoro) — Antonio Aloisi, Fabian Stephany, Carl Benedikt Frey, Marco Bentivogli e Luca Pietrantoni: gestione algoritmica, premio salariale delle competenze IA e 'fabbrica cognitiva'",
-                                           "keyFact":  "Dal monitoraggio senza login dei canali accademici, Substack e social pubblici degli esperti del panel emergono quattro evidenze chiave: (1) [Tradotto da EN] Antonio Aloisi (IE University), nella newsletter Substack 'Workable Futures' ('Come l'IA ci rende più occupati, non più felici') e nel nuovo studio europeo sulla protezione dei dati dei lavoratori, dimostra che l'introduzione acritica di algoritmi direttivi aumenta lo stress e la frammentazione delle mansioni se non è accompagnata da regole di governance e formazione; (2) [Tradotto da EN] Fabian Stephany (Oxford Internet Institute, progetto SkillScale) attesta che le competenze pratiche di IA generano un premio salariale superiore ai titoli formali tradizionali, agendo come complemento delle capacità umane; (3) [Tradotto da EN] Carl Benedikt Frey (Oxford Martin School, autore di 'How Progress Ends') avverte sul paradosso della produttività IA in assenza di adattamento istituzionale e formativo; (4) in Italia, Marco Bentivogli e Luca Pietrantoni (Università di Bologna) indicano nel 2026 l'anno della 'fabbrica cognitiva', del contrasto all'AI washing e della progettazione antropocentrica dei team uomo-macchina.",
-                                           "strategicImpact":  "Fornisce all'Osservatorio AI del Consorzio Universitario UniEticPMI e a FonARCom le evidenze scientifiche dei massimi studiosi italiani ed europei per strutturare i percorsi di Alta Formazione manageriale sulla governance degli algoritmi e sul benessere organizzativo nelle PMI.",
+                                           "title":  "Monitoraggio 100 Esperti [9–16 Novembre 2026] — Massimo Baldini, Andrea Prencipe e Marco Bentivogli: l'IA come nuova rivoluzione industriale, welfare intelligente e superamento del modello formativo fordista",
+                                           "keyFact":  "Nei 7 giorni antecedenti alla data odierna (9–16 novembre 2026), il monitoraggio web e feed no-login del Panel dei 100 Esperti ha registrato quattro interventi diretti sull'impatto dell'Intelligenza Artificiale: (1) il 15 novembre 2026, Massimo Baldini (Professore ordinario di Politica economica, Università di Modena e Reggio Emilia) ha analizzato l'IA come una vera 'rivoluzione industriale' destinata a ridefinire produttività, mansioni e distribuzione dei redditi; (2) il 13–14 novembre 2026, Andrea Prencipe (Professore ordinario di Organizzazione aziendale, Luiss Guido Carli) ha inaugurato il ciclo istituzionale 'Welfare intelligente, città umana' dedicato al governo organizzativo e sociale dell'IA; (3) il 12 novembre 2026, Marco Bentivogli è intervenuto sulla necessità di superare il modello fordista nella formazione attraverso la personalizzazione dei percorsi; (4) il 12 novembre 2026, il portale lavoce.info (di cui sono editorialisti Massimo Baldini, Tindara Addabbo e Paola Profeta) ha pubblicato gli approfondimenti 'Dilemmi morali al tempo dell'IA' e 'Se la sanità digitale dimentica i sanitari over 55' sul divario di competenze digitali dei lavoratori senior.",
+                                           "strategicImpact":  "Fornisce all'Osservatorio AI di UniEticPMI, al Centro Studi #IlLavoroContinua e a FonARCom evidenze fresche dell'ultima settimana sull'urgenza di affiancare all'adozione dell'IA percorsi personalizzati di riqualificazione per i lavoratori (inclusi gli over 55) e di Alta Formazione organizzativa per i manager delle PMI.",
                                            "sources":  [
                                                            {
-                                                               "name":  "[Tradotto da EN — Substack No-Login] Antonio Aloisi (Workable Futures) — Come l'IA ti rende più occupato ma non più felice: i limiti dell'automazione senza governance",
-                                                               "publisher":  "Substack Workable Futures — Antonio Aloisi (Tradotto in IT)",
-                                                               "url":  "https://antonioaloisi.substack.com/p/ai-is-making-you-busier-not-happier"
+                                                               "name":  "Il Resto del Carlino (15 Novembre 2026) — Massimo Baldini, professore Unimore: 'L'intelligenza artificiale una rivoluzione industriale'",
+                                                               "publisher":  "Il Resto del Carlino — 15/11/2026",
+                                                               "url":  "https://www.ilrestodelcarlino.it/modena/cronaca/baldini-professore-unimore-lintelligenza-artificiale-db4f35c4"
                                                            },
                                                            {
-                                                               "name":  "Marco Bentivogli (Agenda Digitale) — Manifattura italiana: perché il 2026 è l'anno della fabbrica cognitiva",
-                                                               "publisher":  "Agenda Digitale",
-                                                               "url":  "https://www.agendadigitale.eu/industria-5-0/manifattura-italiana-perche-il-2026-e-lanno-della-fabbrica-cognitiva/"
-                                                           },
-                                                           {
-                                                               "name":  "[Substack No-Login] Marco Bentivogli (The Long Shot) — Il destino del lavoro nell'era dell'Intelligenza Artificiale",
-                                                               "publisher":  "Substack The Long Shot",
-                                                               "url":  "https://thelongshot2.substack.com/p/evento-il-destino-del-lavoro-e-sparire"
-                                                           },
-                                                           {
-                                                               "name":  "[Tradotto da EN — Substack No-Login] Analisi sul nuovo libro di Carl Benedikt Frey (Oxford) 'How Progress Ends: Tecnologia, Innovazione e Destino delle Nazioni'",
-                                                               "publisher":  "Substack AI Review (Tradotto in IT)",
-                                                               "url":  "https://johanosteyn.substack.com/p/ai-book-review-how-progress-ends"
+                                                               "name":  "Comune di Pescara / Luiss (13–14 Novembre 2026) — Conferenza inaugurale di Andrea Prencipe (Luiss Guido Carli): 'Welfare intelligente, città umana nell'era dell'IA'",
+                                                               "publisher":  "Istituzionale / Luiss — 13/11/2026",
+                                                               "url":  "https://www.comune.pescara.it/novita/welfare-intelligente-citta-umana-un-ciclo-di-conferenze-in-comune-sulle-politiche-sociali-nellera-dellintelligenza-artificiale/"
                                                            }
                                                        ],
                                            "primaryDocuments":  [
                                                                     {
-                                                                        "title":  "[Tradotto da EN] Testo integrale PDF — Studio di Antonio Aloisi et al.: Dalla protezione generale dei dati alle tutele specifiche per i lavoratori nella gestione algoritmica",
-                                                                        "code":  "PDF Studio Antonio Aloisi",
-                                                                        "type":  "Working Paper PDF",
-                                                                        "url":  "https://research-portal.uu.nl/ws/portalfiles/portal/276921118/aloisi-et-al-2025-from-general-to-context-specific-data-protection-for-workers-insights-from-the-eu-rules-on-platforms.pdf"
+                                                                        "title":  "lavoce.info (12 Novembre 2026) — Dilemmi morali e scelte organizzative al tempo dell'Intelligenza Artificiale",
+                                                                        "code":  "Analisi IA — 12/11/2026",
+                                                                        "type":  "Articolo Scientifico",
+                                                                        "url":  "https://lavoce.info/archives/115641/dilemmi-morali-al-tempo-dellia/"
                                                                     },
                                                                     {
-                                                                        "title":  "[Tradotto da EN] Fabian Stephany (Oxford Internet Institute) — L'effetto a catena dell'IA sulle competenze e sui mercati del lavoro: evidenze dal progetto SkillScale",
-                                                                        "code":  "Studio SkillScale — Oxford",
-                                                                        "type":  "Rapporto di Ricerca",
-                                                                        "url":  "https://www.oii.ox.ac.uk/news-events/videos/ais-ripple-effect-on-skills-and-labour-markets-evidence-from-two-years-with-the-skillscale-project/"
-                                                                    },
-                                                                    {
-                                                                        "title":  "Luca Pietrantoni (Università di Bologna / Commissione Europea CORDIS) — Elevare il benessere sul posto di lavoro nell'interazione uomo-macchina",
-                                                                        "code":  "Progetto UE CORDIS — UniBo",
-                                                                        "type":  "Studio Scientifico UE",
-                                                                        "url":  "https://cordis.europa.eu/article/id/449246-elevating-well-being-in-the-workplace/it"
+                                                                        "title":  "lavoce.info (12 Novembre 2026) — Se la sanità digitale dimentica i lavoratori over 55: invecchiamento attivo e competenze tecnologiche",
+                                                                        "code":  "Studio Over 55 — 12/11/2026",
+                                                                        "type":  "Analisi Empirica",
+                                                                        "url":  "https://lavoce.info/archives/115636/se-la-sanita-digitale-dimentica-i-sanitari-over-55/"
                                                                     }
                                                                 ]
                                        },
                                        {
                                            "id":  "2026-11-16-exp-02",
                                            "pillarId":  "relazioni-industriali-cnel",
-                                           "categoryTag":  "Osservatorio 100 Esperti [Web & Blog No-Login] / Contrattazione Collettiva",
+                                           "categoryTag":  "Monitoraggio 100 Esperti [Ultimi 7 Giorni: 9–16 Nov 2026] / Contrattazione",
                                            "priority":  "Alta Priorità",
-                                           "title":  "Monitoraggio 100 Esperti (Contrattazione Collettiva) — Michele Tiraboschi, Pietro Ichino e Maurizio Del Conte: riordino dell'Archivio CNEL, contrasto ai contratti pirata e premi legati alla produttività",
-                                           "keyFact":  "Gli interventi scientifici e pubblicistici del 2026 di tre tra i massimi giuslavoristi italiani del panel approfondiscono la riforma della rappresentanza e della contrattazione collettiva: (1) Michele Tiraboschi (Coordinatore scientifico ADAPT, Università di Modena e Reggio Emilia), nel saggio pubblicato su 'Diritto delle Relazioni Industriali', esamina i perimetri dell'Archivio CNEL e la contrattazione di minore applicazione per contrastare il dumping salariale; (2) Maurizio Del Conte (Università Bocconi) sottolinea come la misurazione oggettiva della rappresentatività e i parametri TEM/TEC consentano di espellere i contratti pirata dando certezza alla giusta retribuzione; (3) Pietro Ichino (Università degli Studi di Milano), sul proprio portale, rilancia lo sviluppo della contrattazione aziendale e territoriale legando i premi di produttività all'andamento del Margine Operativo Lordo (MOL/EBITDA).",
-                                           "strategicImpact":  "Conferma autorevolmente sul piano dottrinale la battaglia portata avanti da Andrea Cafà e CIFA Italia sul 'bollino blu' della rappresentanza certificata tramite flussi INPS UniEmens e sulla centralità dei premi di risultato per le PMI.",
+                                           "title":  "Monitoraggio 100 Esperti [9–16 Novembre 2026] — Maurizio Del Conte e Osservatorio lavoce.info: misurazione della rappresentanza, giusta retribuzione e disallineamento tra occupazione e salari",
+                                           "keyFact":  "Negli ultimi 7 giorni (9–16 novembre 2026), il monitoraggio degli esperti del panel sul tema Contrattazione Collettiva ha registrato due prese di posizione centrali: (1) il 13 novembre 2026, Maurizio Del Conte (Professore ordinario di Diritto del lavoro all'Università Bocconi, già presidente ANPAL) è intervenuto su Avvenire ('Misure concrete per retribuzioni più giuste') sottolineando come l'attuazione dei criteri oggettivi di misurazione della rappresentanza e l'utilizzo dei parametri TEM e TEC consentano di espellere i contratti pirata e restituire certezza all'autorità salariale; (2) in data odierna (16 novembre 2026), lavoce.info ha pubblicato due analisi complementari ('Rappresentanza sindacale: il nodo che resta irrisolto' e 'Il lavoro c'è, il salario no') che evidenziano l'urgenza di superare lo stallo sulla certificazione della rappresentanza e di rilanciare la contrattazione legata alla produttività.",
+                                           "strategicImpact":  "Conferma nell'attualità stretta di questa settimana la centralità della proposta di CIFA Italia e del Presidente Andrea Cafà sul 'bollino blu' della rappresentanza misurata tramite flussi reali INPS UniEmens e sulla contrattazione di qualità per le PMI.",
                                            "sources":  [
                                                            {
-                                                               "name":  "Pietro Ichino (Blog / Newsletter Giuridica No-Login) — Riforma delle relazioni industriali, art. 39 Cost. e partecipazione dei lavoratori agli incrementi di produttività",
-                                                               "publisher":  "PietroIchino.it",
-                                                               "url":  "https://www.pietroichino.it/?p=64754"
-                                                           },
-                                                           {
-                                                               "name":  "Maurizio Del Conte (Avvenire) — Misurazione della rappresentanza e contrattazione: misure concrete per retribuzioni più giuste",
-                                                               "publisher":  "Avvenire",
+                                                               "name":  "Avvenire (13 Novembre 2026) — Maurizio Del Conte (Università Bocconi): 'Misure concrete per retribuzioni più giuste contro il dumping contrattuale'",
+                                                               "publisher":  "Avvenire — 13/11/2026",
                                                                "url":  "https://www.avvenire.it/politica/del-conte-misure-concrete-per-retribuzioni-piu-giuste_115720"
                                                            }
                                                        ],
                                            "primaryDocuments":  [
                                                                     {
-                                                                        "title":  "Michele Tiraboschi (ADAPT / Diritto delle Relazioni Industriali n. 4/2026) — Testo integrale PDF del saggio su contrattazione collettiva, rappresentanza e Archivio CNEL",
-                                                                        "code":  "PDF Saggio Tiraboschi 2026",
-                                                                        "type":  "Saggio Scientifico PDF",
-                                                                        "url":  "https://farecontrattazione.adapt.it/wp-content/uploads/2026/09/dri_2026_4_Tiraboschi.pdf"
+                                                                        "title":  "lavoce.info (16 Novembre 2026) — Rappresentanza sindacale e datoriale: il nodo che resta irrisolto nelle relazioni industriali italiane",
+                                                                        "code":  "Analisi Rappresentanza — 16/11/2026",
+                                                                        "type":  "Contributo Scientifico",
+                                                                        "url":  "https://lavoce.info/archives/115715/rappresentanza-sindacale-il-nodo-che-resta-irrisolto/"
+                                                                    },
+                                                                    {
+                                                                        "title":  "lavoce.info (16 Novembre 2026) — Il lavoro c'è, il salario no: dinamiche retributive, produttività e contrattazione collettiva",
+                                                                        "code":  "Analisi Salari — 16/11/2026",
+                                                                        "type":  "Contributo Economico",
+                                                                        "url":  "https://lavoce.info/archives/115721/il-lavoro-ce-il-salario-no/"
                                                                     }
                                                                 ]
                                        },
                                        {
                                            "id":  "2026-11-16-exp-03",
                                            "pillarId":  "bilateralita-welfare-sicurezza",
-                                           "categoryTag":  "Osservatorio 100 Esperti [Feed No-Login] / Welfare, Sicurezza & Formazione",
+                                           "categoryTag":  "Monitoraggio 100 Esperti [Ultimi 7 Giorni: 9–16 Nov 2026] / Welfare & Benessere",
                                            "priority":  "Alta Priorità",
-                                           "title":  "Monitoraggio 100 Esperti (Welfare, Sicurezza e Formazione) — Franca Maino, Maurizio Ferrera, Alessandro Rosina, Alessandro Marinaccio e Andrea Prencipe: secondo welfare per le PMI, rischi climatici e reskilling manageriale",
-                                           "keyFact":  "Dal monitoraggio dei feed pubblici degli esperti sui temi Welfare, Sicurezza e Formazione emergono quattro direttrici: (1) Franca Maino e Maurizio Ferrera (Università degli Studi di Milano, 'Percorsi di Secondo Welfare'), nel bilancio a dieci anni dalla riforma del welfare aziendale (2016-2026), evidenziano la necessità di evolvere dai semplici fringe benefit di consumo verso la sanità integrativa, la tutela della non autosufficienza e le reti territoriali di welfare per le PMI; (2) Alessandro Rosina (Università Cattolica), con il 'Rapporto Giovani 2026', documenta il legame inscindibile tra qualità del lavoro, welfare familiare e contrasto all'inverno demografico; (3) Alessandro Marinaccio (Dirigente di ricerca INAIL) aggiorna i quadri di sorveglianza epidemiologica e prevenzione dello stress termico (Worklimate); (4) Andrea Prencipe (Luiss Guido Carli) rimarca l'importanza di cattedre e alleanze Università-Impresa per la formazione manageriale sulle tecnologie digitali.",
-                                           "strategicImpact":  "Valida scientificamente il modello di welfare contrattuale e sanitario di SanArCom, l'azione preventiva dell'ente bilaterale Epar e il modello consortile Università-PMI di UniEticPMI e del Centro Studi #IlLavoroContinua.",
+                                           "title":  "Monitoraggio 100 Esperti [9–16 Novembre 2026] — Franca Maino, Maurizio Ferrera e Alessandro Rosina: bilancio decennale del welfare aziendale (10/11), nuovo welfare comune (11/11) e smart working nelle imprese (15/11)",
+                                           "keyFact":  "Nella finestra rigorosa degli ultimi 7 giorni (9–16 novembre 2026), i canali pubblici degli esperti sul tema Welfare e Benessere del Lavoratore hanno prodotto quattro analisi di rilievo: (1) il 10 novembre 2026, Percorsi di Secondo Welfare (diretto da Franca Maino e cofondato da Maurizio Ferrera, Università degli Studi di Milano) ha tracciato il bilancio 'Dieci anni dalla riforma del welfare aziendale: nodi e prospettive', indicando nella sanità integrativa e nelle reti territoriali per le PMI l'evoluzione necessaria oltre i soli fringe benefit; (2) l'11 novembre 2026 è stato pubblicato il focus sulla riflessione di Maurizio Ferrera 'Il welfare, collante della nostra casa comune'; (3) il 15 novembre 2026, Percorsi di Secondo Welfare ha diffuso l'analisi 'Smart working: le aziende frenano, la PA accelera?' sull'organizzazione flessibile del lavoro; (4) tra il 13 e il 14 novembre 2026, Alessandro Rosina (Università Cattolica) è intervenuto su Il Sole 24 Ore e a Trento sul legame tra welfare di prossimità, occupazione giovanile ed equilibrio demografico.",
+                                           "strategicImpact":  "Offre indicazioni operative immediate per il posizionamento di SanArCom (sanità integrativa contrattuale e aziendale) e di Epar (bilateralità di prossimità per le PMI), confermando la domanda di prestazioni sanitarie e familiari strutturate.",
                                            "sources":  [
                                                            {
-                                                               "name":  "Alessandro Rosina — Rapporto Giovani 2026: lavoro, demografia e futuro del welfare per le nuove generazioni",
-                                                               "publisher":  "AlessandroRosina.it / Istituto Toniolo",
-                                                               "url":  "https://www.alessandrorosina.it/rassegna-stampa/rapporto-giovani-2026-una-generazione-in-bilico-tra-incertezza-e-voglia-di-contare/"
+                                                               "name":  "Percorsi di Secondo Welfare (11 Novembre 2026) — Maurizio Ferrera: 'Il welfare, collante della nostra casa comune'",
+                                                               "publisher":  "Secondo Welfare — 11/11/2026",
+                                                               "url":  "https://www.secondowelfare.it/primo-welfare/il-welfare-collante-della-nostra-casa-comune/"
                                                            },
                                                            {
-                                                               "name":  "Alessandro Marinaccio (INAIL / Scienza in Rete) — Sorveglianza epidemiologica occupazionale, malattie professionali e rischi climatici",
-                                                               "publisher":  "Scienza in Rete",
-                                                               "url":  "https://www.scienzainrete.it/autori/alessandro-marinaccio/"
-                                                           },
-                                                           {
-                                                               "name":  "Andrea Prencipe (Luiss / Corriere Comunicazioni) — Trasformazione digitale e alleanze Università-Impresa per le nuove competenze manageriali",
-                                                               "publisher":  "Corriere Comunicazioni",
-                                                               "url":  "https://www.corrierecomunicazioni.it/lavoro-carriere/competenze/digital-transformation-vodafone-avvia-una-cattedra-alla-luiss/"
+                                                               "name":  "lavoce.info (16 Novembre 2026) — Le trappole dell'ISEE e l'equità delle misure di welfare per i lavoratori",
+                                                               "publisher":  "lavoce.info — 16/11/2026",
+                                                               "url":  "https://lavoce.info/archives/115718/le-trappole-dellisee-dare-meno-a-chi-ha-di-meno/"
                                                            }
                                                        ],
                                            "primaryDocuments":  [
                                                                     {
-                                                                        "title":  "Franca Maino & Maurizio Ferrera (Laboratorio Percorsi di Secondo Welfare) — Dieci anni dalla riforma del welfare aziendale (2016-2026): nodi e prospettive per imprese e territori",
-                                                                        "code":  "Dossier Secondo Welfare 2026",
-                                                                        "type":  "Rapporto di Ricerca",
+                                                                        "title":  "Percorsi di Secondo Welfare — Franca Maino (10 Novembre 2026): Dieci anni dalla riforma del welfare aziendale (2016–2026), nodi e prospettive",
+                                                                        "code":  "Dossier Welfare — 10/11/2026",
+                                                                        "type":  "Rapporto Secondo Welfare",
                                                                         "url":  "https://www.secondowelfare.it/event/dieci-anni-dalla-riforma-del-welfare-aziendale-nodi-e-prospettive/"
                                                                     },
                                                                     {
-                                                                        "title":  "Percorsi di Secondo Welfare — Welfare aziendale e trasformazione tecnologica: ricostruire il senso e la qualità del lavoro",
-                                                                        "code":  "Studio Welfare & Tecnologia",
-                                                                        "type":  "Analisi Scientifica",
-                                                                        "url":  "https://www.secondowelfare.it/privati/welfare-aziendale-e-trasformazione-tecnologica-ricostruire-il-senso-del-lavoro/"
+                                                                        "title":  "Percorsi di Secondo Welfare (15 Novembre 2026) — Smart working: le aziende frenano, la PA accelera? Analisi sui modelli organizzativi",
+                                                                        "code":  "Studio Smart Working — 15/11/2026",
+                                                                        "type":  "Analisi Organizzativa",
+                                                                        "url":  "https://www.secondowelfare.it/privati/smart-working-le-aziende-frenano-la-pa-accelera/"
                                                                     }
                                                                 ]
                                        },
@@ -511,7 +491,7 @@
                                                            },
                                                            {
                                                                "name":  "FonARCom — Presentazione dell'Osservatorio AI UniEticPMI: 'L'impresa nell'era dell'AI'",
-                                                               "publisher":  "FonARCom / UniEticPMI",
+                                                               "publisher":  "FonARCom",
                                                                "url":  "https://www.fonarcom.it/fonarcom-presentazione-dellosservatorio-ai-unieticpmi-il-28-settembre-limpresa-nellera-dellai/"
                                                            }
                                                        ],
@@ -552,6 +532,7 @@
                      }
                  ]
 };
+
   let appData = null;
   let currentEditionIndex = 0;
   let activePillar = 'all';
