@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Osservatorio dei 100 Esperti sul Futuro del Lavoro (Italia & Europa/UK)",
+    "description": "Anagrafica strutturata dei 100 accademici, giuslavoristi, economisti, medici del lavoro ed esperti di organizzazione e welfare monitorati quotidianamente (web + canali social e accademici pubblici senza login).",
+    "totalExperts": 100,
+    "anonymousMonitoringChannels": [
+      "Bluesky Public API (public.api.bsky.app/xrpc/app.bsky.feed.searchPosts — accesso pubblico gratuito senza login né API key)",
+      "Mastodon / Fediverse Public RSS & JSON API (sciences.social, econtwitter.net, fediscience.org — accesso pubblico senza login)",
+      "OpenAlex & Crossref Public API (api.openalex.org — monitoraggio working paper e pubblicazioni scientifiche in tempo reale senza login)",
+      "Google News RSS & Indicizzazione Search di post pubblici LinkedIn/X/Substack (lettura post pubblici indicizzati senza login)",
+      "Feed RSS Istituzionali e Blog Diretti (pietroichino.it, bollettinoadapt.it, secondowelfare.it, lavoce.info, etui.org, oii.ox.ac.uk, eu-osha.europa.eu)"
+    ]
+  },
+  "themes": [
+    {
+      "themeId": "ia-competenze-pmi",
+      "themeName": "Intelligenza artificiale applicata al lavoro",
+      "italia": [
+        { "name": "Luca Pietrantoni", "role": "Professore ordinario di Psicologia del lavoro e delle organizzazioni, Università di Bologna", "expertise": "Collaborazione uomo-AI nelle organizzazioni, fattori umani nell'adozione tecnologica" },
+        { "name": "Elvis Mazzoni", "role": "Professore di Psicologia dello sviluppo, Università di Bologna", "expertise": "Impatto generazionale nell'adozione di tecnologie digitali e sistemi di AI; consulenza alle imprese" },
+        { "name": "Federico Fraboni", "role": "Professore associato di Psicologia del lavoro e delle organizzazioni, Università di Bologna", "expertise": "Design e valutazione di interfacce human-centered AI, interazione con sistemi robotici" },
+        { "name": "Jacopo Staccioli", "role": "Professore associato di Politica economica, Università Cattolica del Sacro Cuore (Milano)", "expertise": "Economia del lavoro e algorithmic management; PI di FemLab@AI sul lavoro femminile gestito da AI" },
+        { "name": "Mariano Corso", "role": "Professore di Management Engineering, Politecnico di Milano", "expertise": "Responsabile scientifico degli Osservatori HR Innovation Practice e Smart Working" },
+        { "name": "Marco Bentivogli", "role": "Saggista e consulente; già segretario generale FIM-CISL", "expertise": "Impatto dell'AI su industria, mansioni e relazioni industriali; divulgazione e advisory" },
+        { "name": "Barbara Caputo", "role": "Professoressa, Politecnico di Torino; board member ELLIS", "expertise": "Machine learning e robotica; apprendimento continuo dei sistemi di AI" },
+        { "name": "Dino Pedreschi", "role": "Professore di Informatica, Università di Pisa; co-leader del KDD Lab", "expertise": "Big data analytics, data mining e impatto sociale dei dati su persone e lavoro" },
+        { "name": "Fosca Giannotti", "role": "Professoressa ordinaria di Informatica, Scuola Normale Superiore (Pisa)", "expertise": "Human-centered e trustworthy AI, explainability" },
+        { "name": "Alessandro Mantelero", "role": "Professore associato di Diritto privato e Law & Technology, Politecnico di Torino", "expertise": "Regolazione dell'AI, diritti fondamentali, AI Act; esperto JRC, OCSE e Consiglio d'Europa" }
+      ],
+      "europa_uk": [
+        { "name": "Carl Benedikt Frey", "role": "Dieter Schwarz Foundation Professor of Political Economy and Technology, Oxford Internet Institute; direttore del Future of Work Programme, Oxford Martin School", "expertise": "Automazione, AI generativa e futuro dell'occupazione" },
+        { "name": "Fabian Stephany", "role": "Departmental Research Lecturer, Oxford Internet Institute", "expertise": "Skill e mercato del lavoro nell'economia dell'AI (progetto SkillScale); fellow Microsoft AI Economy Institute" },
+        { "name": "Mark Graham", "role": "Professor of Internet Geography, Oxford Internet Institute", "expertise": "Lavoro digitale, gig economy e condizioni dei lavoratori delle piattaforme" },
+        { "name": "Phoebe V. Moore", "role": "Professor, Essex Business School, University of Essex", "expertise": "Tecnologie del lavoro, monitoraggio quantificato del lavoratore, algorithmic management" },
+        { "name": "Antonio Aloisi", "role": "Associate Professor of Law, IE University (Madrid); co-leader del centro Jean Monnet 'Lawtomation'", "expertise": "Diritto del lavoro e automazione, lavoro in piattaforma, AI Act e tutele" },
+        { "name": "Jeremias Adams-Prassl", "role": "Professor of Law, University of Oxford (Magdalen College)", "expertise": "Diritto del lavoro e gestione algoritmica; autore di 'Humans as a Service'" },
+        { "name": "Valeria Pulignano", "role": "Professoressa di Sociologia, KU Leuven; membro di Leuven.AI", "expertise": "Relazioni industriali europee, lavoro in piattaforma, ERC ResPecTMe su lavoro non pagato e precariato" },
+        { "name": "Gina Neff", "role": "Professor of Responsible AI, Queen Mary University of London (DERI)", "expertise": "AI responsabile, dati e lavoro; autrice di libri su self-tracking e lavoro" },
+        { "name": "Uma Rani", "role": "Senior Economist, Organizzazione Internazionale del Lavoro (Ginevra)", "expertise": "Economia digitale e piattaforme; autrice dei rapporti ILO World Employment and Social Outlook" },
+        { "name": "Carin Håkansta", "role": "Ricercatrice, Karolinska Institutet (Stoccolma); principal investigator del progetto ALGOSH", "expertise": "Algorithmic management e salute sul lavoro, ricerca comparata europea" }
+      ]
+    },
+    {
+      "themeId": "bilateralita-welfare-sicurezza",
+      "themeName": "Sicurezza sul lavoro",
+      "italia": [
+        { "name": "Sergio Iavicoli", "role": "Direttore generale della prevenzione, Ministero della Salute; già dirigente di ricerca INAIL", "expertise": "Epidemiologia occupazionale, stress lavoro-correlato, prevenzione" },
+        { "name": "Alessandro Marinaccio", "role": "Dirigente di ricerca INAIL; responsabile del Registro nazionale dei mesoteliomi (ReNaM)", "expertise": "Malattie professionali, amianto, sorveglianza epidemiologica; membro Collegium Ramazzini" },
+        { "name": "Massimo Corradi", "role": "Professore ordinario di Medicina del lavoro, Università di Parma; direttore CESISLAV", "expertise": "Medicina del lavoro, tossicologia industriale, rischi respiratori" },
+        { "name": "Francesco Saverio Violante", "role": "Professore ordinario di Medicina del lavoro, Università di Bologna", "expertise": "Disturbi muscolo-scheletrici, ergonomia clinica, sorveglianza sanitaria" },
+        { "name": "Nicola Magnavita", "role": "Già direttore della Scuola di specializzazione in Medicina del lavoro, Università Cattolica del Sacro Cuore (Roma)", "expertise": "Stress lavoro-correlato, invecchiamento della forza lavoro, organizzazione e salute" },
+        { "name": "Stefano Porru", "role": "Professore di Medicina del lavoro, Università di Verona", "expertise": "Epidemiologia occupazionale, lavoro anziano, medicina del lavoro clinica" },
+        { "name": "Claudio Colosio", "role": "Professore a contratto di Medicina del lavoro, Università degli Studi di Milano; già ordinario", "expertise": "Rischio chimico e agricolo, salute rurale" },
+        { "name": "Alberto Modenese", "role": "Professore di Medicina del lavoro, Università di Modena e Reggio Emilia; membro ICNIRP", "expertise": "Radiazioni ionizzanti e non ionizzanti, campi elettromagnetici, revisioni sistematiche OSH" },
+        { "name": "Stefania Curti", "role": "Professoressa associata di Medicina del lavoro, Università di Bologna", "expertise": "Epidemiologia occupazionale, disegno di studi e sorveglianza" },
+        { "name": "Stefano M. Candura", "role": "Professore ordinario e responsabile dell'Unità di Medicina del lavoro, Università di Pavia", "expertise": "Medicina del lavoro, tossicologia occupazionale" }
+      ],
+      "europa_uk": [
+        { "name": "William Cockburn", "role": "Executive Director, EU-OSHA (Agenzia europea per la sicurezza e la salute sul lavoro, Bilbao)", "expertise": "Strategia europea su salute e sicurezza; economia della prevenzione" },
+        { "name": "Laurent Vogel", "role": "Associate Researcher, ETUI (Istituto sindacale europeo, Bruxelles)", "expertise": "Diritto europeo della salute sul lavoro, amianto, lavoro e genere" },
+        { "name": "Rory O'Neill", "role": "Editor di Hazards magazine; Professor, University of Liverpool; consulente salute e sicurezza ITUC", "expertise": "Informazione sindacale sulla sicurezza, lavoro pericoloso, advocacy internazionale" },
+        { "name": "Sarah Albon", "role": "Chief Executive, Health and Safety Executive (Regno Unito)", "expertise": "Regolazione nazionale britannica di salute e sicurezza sul lavoro" },
+        { "name": "Ruth Wilkinson", "role": "Head of Policy and Public Affairs, IOSH", "expertise": "Politiche professionali della sicurezza, standard della professione OSH" },
+        { "name": "Stavroula Leka", "role": "Professor of Work Organization and Well-Being, University College Cork; Emerita, University of Nottingham", "expertise": "Rischi psicosociali, standard internazionali, salute nelle piccole imprese" },
+        { "name": "Aditya Jain", "role": "Professor of Sustainable Work and Development, University of Nottingham", "expertise": "Sicurezza, salute e benessere organizzativo, lavoro sostenibile" },
+        { "name": "Theo Bodin", "role": "Professore associato, Karolinska Institutet; responsabile del gruppo New World of Work", "expertise": "Medicina occupazionale, nuove forme di lavoro, gig economy e salute" },
+        { "name": "Fehmidah Munir", "role": "Professor of Health Psychology e Associate Dean of Research and Innovation, Loughborough University", "expertise": "Salute sul lavoro, condizioni croniche e lavoro, ritorno al lavoro" },
+        { "name": "Kevin Teoh", "role": "Reader in Work and Organisational Psychology, Birkbeck, University of London", "expertise": "Salute mentale e benessere dei lavoratori, interventi organizzativi" }
+      ]
+    },
+    {
+      "themeId": "relazioni-industriali-cnel",
+      "themeName": "Contrattazione collettiva",
+      "italia": [
+        { "name": "Pietro Ichino", "role": "Professore emerito di Diritto del lavoro, Università degli Studi di Milano; editorialista", "expertise": "Diritto del lavoro, relazioni industriali, mercato del lavoro" },
+        { "name": "Michele Tiraboschi", "role": "Professore ordinario di Diritto del lavoro, Università di Modena e Reggio Emilia; coordinatore scientifico ADAPT", "expertise": "Contrattazione collettiva, relazioni industriali comparate, diritti sindacali" },
+        { "name": "Orsola Razzolini", "role": "Professoressa ordinaria di Diritto del lavoro, Università degli Studi di Milano", "expertise": "Contrattazione collettiva, diritto sindacale, discriminazioni" },
+        { "name": "Stefano Giubboni", "role": "Professore ordinario di Diritto del lavoro, Università di Perugia", "expertise": "Diritto del lavoro italiano ed europeo, libertà sindacale, sicurezza sociale" },
+        { "name": "Franco Scarpelli", "role": "Professore ordinario di Diritto del lavoro, Università di Milano-Bicocca; condirettore Rivista Giuridica del Lavoro", "expertise": "Relazioni industriali, prassi negoziale, contenzioso collettivo" },
+        { "name": "Andrea Lassandari", "role": "Professore ordinario di Diritto del lavoro, Università di Bologna", "expertise": "Contrattazione collettiva, rappresentanza sindacale, sciopero" },
+        { "name": "Franco Carinci", "role": "Già ordinario di Diritto del lavoro, Università di Bologna; fondatore dell'Italian Labour Law e-Journal", "expertise": "Contrattazione collettiva comparata, autonomia sindacale" },
+        { "name": "Maurizio Del Conte", "role": "Professore ordinario di Diritto del lavoro, Università Bocconi; già presidente ANPAL", "expertise": "Relazioni industriali, politiche attive del lavoro, contrattazione" },
+        { "name": "Adalberto Perulli", "role": "Professore di Diritto del lavoro, Università Ca' Foscari Venezia", "expertise": "Diritto del lavoro, sistemi di relazioni industriali, autonomia collettiva" },
+        { "name": "Edoardo Ales", "role": "Docente di Labour Law, Luiss Guido Carli; già ordinario di Diritto del lavoro, Università di Cassino", "expertise": "Contrattazione collettiva, diritto sindacale, sciopero" }
+      ],
+      "europa_uk": [
+        { "name": "Torsten Müller", "role": "Senior Researcher, ETUI (Bruxelles)", "expertise": "Contrattazione collettiva, salario minimo, sindacati in Europa" },
+        { "name": "Thorsten Schulten", "role": "Responsabile del WSI-Tarifarchiv, Fondazione Hans Böckler (Düsseldorf); Honorarprofessor, Università di Tubinga", "expertise": "Salari e contrattazione in Germania e in Europa, salario minimo" },
+        { "name": "Malte Lübker", "role": "Ricercatore, WSI (referente Analisi di tariffe e redditi)", "expertise": "Analisi dei contratti collettivi, clausole, andamenti retributivi" },
+        { "name": "Isabelle Schömann", "role": "Deputy General Secretary, ETUC (Confederazione europea dei sindacati, Bruxelles)", "expertise": "Diritto del lavoro europeo, diritti sindacali, democrazia sul lavoro" },
+        { "name": "Catherine Barnard", "role": "Professor of European Union Law and Employment Law, University of Cambridge", "expertise": "Diritto UE del lavoro, contrattazione e mercato interno" },
+        { "name": "Alan Bogg", "role": "Professor of Labour Law, University of Bristol", "expertise": "Teoria del diritto del lavoro, sciopero, contrattazione collettiva" },
+        { "name": "Keith Ewing", "role": "Professor of Law, King's College London", "expertise": "Diritto sindacale, libertà di associazione, relazioni industriali britanniche" },
+        { "name": "John Hendy KC", "role": "Barrister, Old Square Chambers (Londra); pari del Regno", "expertise": "Contenzioso di diritto collettivo del lavoro, diritto di sciopero" },
+        { "name": "Ewan McGaughey", "role": "Professor of Law, King's College London", "expertise": "Diritto del lavoro, democrazia economica, governance d'impresa" },
+        { "name": "Esther Lynch", "role": "General Secretary, ETUC (Confederazione europea dei sindacati)", "expertise": "Coordinamento europeo della contrattazione e delle politiche sindacali" }
+      ]
+    },
+    {
+      "themeId": "formazione-politiche-attive",
+      "themeName": "Formazione di dirigenti e lavoratori",
+      "italia": [
+        { "name": "Andrea Prencipe", "role": "Professore ordinario di Organizzazione aziendale, Luiss Guido Carli", "expertise": "Apprendimento organizzativo, gestione della conoscenza, innovazione e trasformazione digitale" },
+        { "name": "Silvia Bagdadli", "role": "Associate Professor, SDA Bocconi (knowledge group Leadership, HR e tecnologie digitali)", "expertise": "Human Resource Management, formazione e sviluppo manageriale" },
+        { "name": "Luca Solari", "role": "Professore ordinario di Organizzazione aziendale, Università degli Studi di Milano", "expertise": "Comportamento organizzativo, HR, negoziazione e sviluppo delle competenze" },
+        { "name": "Tommaso Fabbri", "role": "Professore di Organizzazione aziendale, Università di Modena e Reggio Emilia", "expertise": "Progettazione organizzativa, apprendimento nelle reti industriali, formazione nei distretti" },
+        { "name": "Anna Comacchio", "role": "Professoressa ordinaria, Università Ca' Foscari; Dean della Ca' Foscari Challenge School", "expertise": "Organizzazione del lavoro, HR, formazione manageriale" },
+        { "name": "Giuseppe Favretto", "role": "Professore ordinario di Organizzazione aziendale, Università di Verona", "expertise": "Comportamento organizzativo, formazione manageriale, benessere organizzativo" },
+        { "name": "Marcello Martinez", "role": "Professore ordinario di Economia e organizzazione aziendale, Università della Campania 'Luigi Vanvitelli'", "expertise": "Disegno organizzativo, servizi pubblici, formazione della dirigenza" },
+        { "name": "Rita Bissola", "role": "Professoressa associata di Organizzazione aziendale, Università Cattolica del Sacro Cuore", "expertise": "Employee-organization relationship, people management, creatività" },
+        { "name": "Luca Quaratino", "role": "Docente senior Area Organizzazione e HR, ISTUD Business School; ricercatore IULM", "expertise": "Progetti di sviluppo organizzativo, ricerca sull'impatto della formazione manageriale" },
+        { "name": "Silvia Profili", "role": "Professoressa ordinaria di Organizzazione aziendale, Università Europea di Roma", "expertise": "Organizzazione, gestione delle risorse umane, formazione" }
+      ],
+      "europa_uk": [
+        { "name": "Lynda Gratton", "role": "Professor of Management Practice, London Business School; direttrice Institute for Work, Careers and Longevity", "expertise": "Futuro del lavoro, carriere longeve, progettazione organizzativa della formazione" },
+        { "name": "Rob Briner", "role": "Professor of Organisational Psychology, Queen Mary University of London", "expertise": "Evidence-based management e HR; valutazione rigorosa di formazione e pratiche manageriali" },
+        { "name": "David Guest", "role": "Professor emerito di Organizational Psychology and Human Resource Management, King's College London", "expertise": "HRM, contratto psicologico, legame tra pratiche HR e performance" },
+        { "name": "Nicky Dries", "role": "Adjunct Professor, BI Norwegian Business School (Oslo)", "expertise": "Carriere, talent management, future of work" },
+        { "name": "Ans De Vos", "role": "Professor, Antwerp Management School; titolare della SD Worx Chair 'Next Generation Work'", "expertise": "Carriere sostenibili, sviluppo continuo, employability" },
+        { "name": "Yehuda Baruch", "role": "Professor of Management, University of Southampton", "expertise": "Gestione delle carriere, sviluppo manageriale, sistemi di carriera globali" },
+        { "name": "Beatrice van der Heijden", "role": "Professor of Strategic Human Resource Management, Radboud University (Nijmegen)", "expertise": "Sustainable careers, employability, invecchiamento e formazione della forza lavoro" },
+        { "name": "Jaap Paauwe", "role": "Professor emerito, Tilburg University (Human Resource Studies)", "expertise": "HRM e performance, contesto istituzionale della gestione delle persone" },
+        { "name": "Emma Parry", "role": "Professor e Director of People, Skills and Leadership, Cranfield University", "expertise": "Cambiamento demografico e generazionale, HRM, sviluppo delle competenze" },
+        { "name": "Henrik Holt Larsen", "role": "Professor emeritus, Copenhagen Business School", "expertise": "HRM europeo, sviluppo manageriale, ruolo della funzione HR" }
+      ]
+    },
+    {
+      "themeId": "bilateralita-welfare-sicurezza",
+      "themeName": "Welfare e benessere del lavoratore",
+      "italia": [
+        { "name": "Maurizio Ferrera", "role": "Professore ordinario di Scienza politica, Università degli Studi di Milano; cofondatore di Percorsi di Secondo Welfare", "expertise": "Welfare state comparato, integrazione europea, secondo welfare" },
+        { "name": "Franca Maino", "role": "Professoressa associata di Scienza politica, Università degli Studi di Milano; direttrice scientifica di Percorsi di Secondo Welfare", "expertise": "Welfare aziendale, conciliazione vita-lavoro, nuove alleanze territoriali" },
+        { "name": "Chiara Saraceno", "role": "Honorary fellow, Collegio Carlo Alberto (Torino)", "expertise": "Famiglia, conciliazione lavoro-famiglia, povertà e politiche sociali" },
+        { "name": "Matteo Jessoula", "role": "Professore ordinario di Scienza politica, Università degli Studi di Milano", "expertise": "Politiche sociali, pensioni, welfare occupazionale" },
+        { "name": "Costanzo Ranci", "role": "Professore ordinario di Sociologia economica, Politecnico di Milano; Laboratorio di Politiche Sociali", "expertise": "Welfare locale, vulnerabilità sociale, long-term care" },
+        { "name": "Paola Profeta", "role": "Professoressa ordinaria, Università Bocconi", "expertise": "Economia pubblica, parità di genere, politiche per il lavoro femminile e la famiglia" },
+        { "name": "Alessandro Rosina", "role": "Professore ordinario di Demografia, Università Cattolica del Sacro Cuore; direttore del Laboratorio LSA", "expertise": "Demografia, giovani e lavoro, futuro del welfare" },
+        { "name": "Tindara Addabbo", "role": "Professoressa di Politica economica e direttrice del Dipartimento di Economia Marco Biagi, Università di Modena e Reggio Emilia", "expertise": "Lavoro femminile, benessere, disuguaglianze, qualità del lavoro" },
+        { "name": "Massimo Baldini", "role": "Professore ordinario di Politica economica, Università di Modena e Reggio Emilia; editorialista lavoce.info", "expertise": "Redistribuzione, povertà, disegno del welfare e delle politiche sociali" },
+        { "name": "Ugo Ascoli", "role": "Sociologo e studioso delle politiche di welfare", "expertise": "Sistema di welfare italiano in comparazione europea, terzo settore" }
+      ],
+      "europa_uk": [
+        { "name": "Cary Cooper", "role": "Professor of Organisational Psychology, University of Manchester", "expertise": "Benessere organizzativo, stress, salute mentale al lavoro" },
+        { "name": "Kevin Daniels", "role": "Professor of Organisational Behaviour, University of East Anglia (Norwich Business School)", "expertise": "Benessere, apprendimento e lavoro; legame wellbeing-produttività" },
+        { "name": "Gail Kinman", "role": "Professor of Occupational Health Psychology, Birkbeck, University of London", "expertise": "Benessere dei lavoratori in professioni ad alto carico emotivo, burnout, resilienza" },
+        { "name": "Christian Krekel", "role": "Associate Professor of Behavioural Science, London School of Economics", "expertise": "Misurazione del benessere, wellbeing nelle organizzazioni, economia della felicità" },
+        { "name": "Jan-Emmanuel De Neve", "role": "Professor of Economics and Behavioural Science, Saïd Business School, University of Oxford; direttore del Wellbeing Research Centre", "expertise": "Economia del benessere, benessere dei lavoratori" },
+        { "name": "Heejung Chung", "role": "Professor of Work and Employment, King's College London; direttrice del King's Global Institute for Women's Leadership", "expertise": "Lavoro flessibile, conciliazione, parità di genere e benessere" },
+        { "name": "Jo Yarker", "role": "Professor of Occupational Psychology, Birkbeck, University of London", "expertise": "Salute e benessere al lavoro, ritorno al lavoro, interventi organizzativi" },
+        { "name": "Bent Greve", "role": "Professor, Roskilde University", "expertise": "Welfare state comparato, felicità e benessere nelle politiche sociali" },
+        { "name": "Giuliano Bonoli", "role": "Professore e direttore (dal 2026) dell'IDHEAP, Università di Losanna", "expertise": "Politiche sociali comparate, social investment, riforme del welfare" },
+        { "name": "Andrew Oswald", "role": "Professor of Economics and Behavioural Science, University of Warwick", "expertise": "Economia del benessere, felicità e produttività" }
+      ]
+    }
+  ]
+}
